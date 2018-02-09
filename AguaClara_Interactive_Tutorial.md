@@ -4,10 +4,12 @@ The aim of this interactive tutorial is to get you acclimated to working out of 
 This tutorial will go over how to write in Markdown, how to code in Python, how to run your code using Hydrogen, and how to use Teletype and GitHub in Atom.
 
 # How To View This Markdown File
-To view this file in a nice format, press `Cntrl + Shift + M` in Atom. You should now see a preview window that shows what the source code looks like when it's formatted. ***Note that all the interactive parts of this tutorial need to be completed in the source code format.***
+To view this file in a nice format, press `Cntrl + Shift + M` in Atom. You should now see a preview window that shows what the source code looks like when it's formatted. **(Note: All the interactive parts of this tutorial need to be completed in the source code format.)**
 
 # How To Modify This Markdown File Without Changing It For Others
-Because this tutorial exists on a repository that all of AguaClara can access, any change that you make in this file will make that change for all other members after you `commit` and `push`. In order to avoid this, you should make a personal GitHub repository, clone it to your local drive, and copy this file into it. To make a personal repository, go to the [GitHub website](https://github.com). Click on the green `New repository` button, and create a repository named "Personal", and clone it using Atom. ***Note: This repository should not exist within the AguaClara GitHub organization, but rather should be tied to your personal account***.
+Because this tutorial exists on a repository that all of AguaClara can access, any change that you make in this file will make that change for all other members after you `commit` and `push`. In order to avoid this, you should make a personal GitHub repository, clone it to your local drive, and copy this file into it. To make a personal repository, go to the [GitHub website](https://github.com). Click on the green `New repository` button, and create a repository named "Personal", and clone it using Atom. **(Note: This repository should not exist within the AguaClara GitHub organization, but rather should be tied to your personal account)**.
+
+Alternatively, if you're a GitHub expert, you can modify this file without changing it for others by forking the `aguaclara_tutorial` repository. **(Note: Only attempt this if you really know what you're doing)**.
 
 You can find a GitHub tutorial [here](https://github.com/AguaClara/aguaclara_tutorial/wiki/Tutorial:-GitHub-Basics) to go over anything related to GitHub.
 
@@ -69,25 +71,34 @@ Lists are very easy to do. For a bulleted list, use the asterisk and for a numbe
 <!--- Fill you answer here. --->
 
 ## Images
-To input images, you'll either need an image URL or a file path to your image. For AguaClara work, your repository should have a folder for images where you can get an image URL from. In this tutorial, I've made an image folder with a picture in the `aguaclara_tutorial` repository.
+To input images, you'll either need an image URL or a file path to your image. For AguaClara work, your repository should have a folder for images where you can get an image URL or file path from. In this tutorial, I've made an image folder with a picture in the `aguaclara_tutorial` repository.
 
-To get your image URL, go to your GitHub repository on your web browser and navigate to the file where your image is stored. Click on the image name, and it should pop up. Right click on the image, and copy image address to get it's URL.
+To get your image URL, go to your GitHub repository on your web browser and navigate to the file where your image is stored. Click on the image name, and it should pop up. Right click on the image, and copy image address to get it's URL. **(Note: You should never copy the URL to the folder where the image is stored in the repository.)**
+
+![CopyImageAddress](https://github.com/AguaClara/aguaclara_tutorial/wiki/Images/CopyImageAddress.png)
+
+When you're trying to insert an image that's stored in a folder in the same repository as your Markdown file, you can use a relative file path to that image to insert it rather than using a URL. For example, the relative file path for the Cornell seal image you see in here is `/Images/Cornell_University_seal.svg.png`. Notice how the first part of the path is the folder within this repository where I store my images, and the second part is the image file name and extension.
 
 There are several ways to import an image.
-* You can import an image unformatted by using this source code `![Some_Description_of_the_Image](YOUR IMAGE URL)`
+* You can import an image unformatted by using this source code `![Some_Description_of_the_Image](YOUR IMAGE URL or /path/to/image.ext)`
 * You can also import an image that's formatted for size using this source code `<img src="YOUR IMAGE URL" height=a width=b>`
   - You have the option to modify both the image height and width or only one if you desire
   - If you modify only one of them, the image will not distort
   - If you modify both, your image may distort
 
 Unformatted Image:
+
+Using a URL:
 ![CornellSeal](https://github.com/AguaClara/aguaclara_tutorial/blob/master/Images/Cornell_University_seal.svg.png?raw=true)
+
+Using a Relative File Path:
+![CornellSeal](/Images/Cornell_University_seal.svg.png)
 
 Image with Height and Width Adjusted:
 
 <img src="https://github.com/AguaClara/aguaclara_tutorial/blob/master/Images/Cornell_University_seal.svg.png?raw=true" height=200 width=100>
 
-1. Make an images folder in your personal repository, and import an image of your hometown or pet from that folder. Do it both unformatted, and formatted to change the size:
+1. Make an images folder in your personal repository, and import an image of your hometown or pet from that folder. Do it unformatted using the image URL and the relative file path method, then do it again but instead change the height and width of your image:
 
 <!--- Fill you answer here. --->
 
@@ -186,10 +197,14 @@ def re_flat_plate(velocity, dist, nu):
   """This function calculates the Reynolds Number for flow past a plate using fluid velocity, plate length, and kinematic viscosity."""
   return (velocity * dist / nu)
 
-plt.plot(xArray, 5 * xArray / np.sqrt(re_flat_plate(1, xArray, pc.viscosity_kinematic(293 * u.kelvin))), '-')
+plt.plot(xArray, 5 * xArray / np.sqrt(re_flat_plate(1, xArray, pc.viscosity_kinematic(293 * u.kelvin))), '-', label = 'Blasius Solution')
 plt.xlabel('Distance From Leading Edge (Meters)')
 plt.ylabel('Boundary Layer Thickness (Meters)')
 plt.title('Blasius Solution for Water at 293 K')
+plt.minorticks_on()
+plt.grid(which = 'major')
+plt.grid(which = 'minor')
+plt.legend(loc = 'lower right', ncol = 1)
 plt.show()
 ```
 
@@ -250,7 +265,7 @@ kB = kB_sc * u.joule / u.kelvin # I've given kB units for you in J/K; you can us
 
 ```
 
-6. You have a pipe with a radius of 0.2 m with water flowing in it at 2 m<sup>3</sup>/s. You want to see how the Reynolds Number changes as viscosity changes due to a change in temperature from 0 to 200<sup>o</sup>C. Create a plot of Reynolds Number against Temperature in Kelvin to show a relationship. Make sure your plot has a title and labeled axes. You can use functions from `physchem` like `pc.re_pipe` and `pc.viscosity_kinematic`. *(Hint: Make an array of temperatures to input into the `pc.viscosity_kinematic` function)*.
+6. You have a pipe with a radius of 0.2 m with water flowing in it at 2 m<sup>3</sup>/s. You want to see how the Reynolds Number changes as viscosity changes due to a change in temperature from 0 to 200<sup>o</sup>C. Create a plot of Reynolds Number against Temperature in Kelvin to show a relationship. Make sure your plot has a title, labeled axes, and axes grid. You can use functions from `physchem` like `pc.re_pipe` and `pc.viscosity_kinematic`. *(Hint: Make an array of temperatures to input into the `pc.viscosity_kinematic` function)*. Make sure to save you plot to your images folder in your personal repository.
 
 <!--- Fill you answer here. --->
 
