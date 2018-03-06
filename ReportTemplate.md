@@ -1,22 +1,26 @@
 # AguaClara Research Report & Manual Template
-#### Natalie Mottl, William Pennock, Janak Shah, and Jillian Whiting
+#### Jonathan Harr
 #### February 20, 2018
 
 # Template Description
 This template will lay out all possible sections that could be used for a research report and manual. All research reports and manuals should strive to comply with this template, but every team will use different parts. In order to use this template, copy this file from the AguaClara team resources repository to your team's repository, and rename it for your team in a format similar to  "[Team Name] [Semester]". An example would be "Filter and Treatment Train Flow Control Spring 2017." For additional information on all the possibilities in markdown files, refer to the AguaClara Interactive Tutorial and the AguaClara Tutorial training pages. After you complete that step, please delete this description and everything above this.
 
-# Team Name, Semester Year
-#### Authors
-#### Date
+# Filter Constrictions, Spring 2018 Team
+#### Jonathan Harris, Jacqueline Dokko, Thomas Bradford
+#### March 9, 2018
 
 ## Abstract
-Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
+~~This subteam's objective is to better understand at the microscopic level how clay particles are filtered in stacked rapid sand filters. An acrylic flow cell is used to model clay-sand interactions at constrictions between sand particles.
+An apparatus has been developed that allows adjustment of head loss in _____. The team must develop a more accurate method of modeling constrictions between sand particles.~~
+
+ Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
 
 ## Introduction
 Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
 
 ## Literature Review and Previous Work
 Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
+
 
 
 ## Methods
@@ -48,17 +52,33 @@ In other words, there should not be two distinct paragraphs, but instead one par
 When describing your results, present your data, using the guidelines below:
 * What happened? What did you find?
 * Show your experimental data in a professional way.
+
+
+$$\Delta p = \rho g \Delta h $$
+$$\Delta p = \frac{128L}{\pi} \frac{\mu Q}{D^4}$$
+$$\Delta h = \frac{128L}{\rho g\pi} \frac{\mu Q}{D^4}$$
+
 ```python
-from aide_design.play import*
-x = np.array([1,2,3,4,5])
-y = np.array([1,2,3,4,5])
-plt.figure('ax',(10,8))
-plt.plot(x,y,'*')
-plt.savefig('/Users/jillianwhiting/github/Jillian-Whiting/Images/linear')
-plt.show()
+from aide_design.play import *
+import math as m
+from scipy import constants
+V_filter = 1.85*u.mm/u.s
+A_filter = (0.5*u.mm)**2
+Q_filter = V_filter*A_filter
+Q_filter.to(u.ul/u.min)
+Q_sand = 555*u.ul/u.min
+L = 275*u.cm
+(L*2.75).to(u.m)
+3*L.to(u.m)
+g = constants.g*u.m/(u.s)**2
+rho = 1*u.g/(u.cm)**3
+mu = 8.90*(10**(-4))*u.Pa *u.s
+D =  0.042*u.inch
+deltah = (128*L*mu*Q_sand)/(rho*g*m.pi*D**4)
+deltah.to(u.cm)
+
 ```
-![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
-Figure 1: Captions are very important for figures. Captions go below figures.
+
 
 After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
 * Why did you get those results/data?
