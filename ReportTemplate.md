@@ -1,26 +1,26 @@
-# AguaClara Research Report & Manual Template
-#### Jonathan Harr
-#### February 20, 2018
-
-# Template Description
-This template will lay out all possible sections that could be used for a research report and manual. All research reports and manuals should strive to comply with this template, but every team will use different parts. In order to use this template, copy this file from the AguaClara team resources repository to your team's repository, and rename it for your team in a format similar to  "[Team Name] [Semester]". An example would be "Filter and Treatment Train Flow Control Spring 2017." For additional information on all the possibilities in markdown files, refer to the AguaClara Interactive Tutorial and the AguaClara Tutorial training pages. After you complete that step, please delete this description and everything above this.
-
 # Filter Constrictions, Spring 2018 Team
-#### Jonathan Harris, Jacqueline Dokko, Thomas Bradford
+#### Thomas Bradford, Jacqueline Dokko, Jonathan Harris
 #### March 9, 2018
 
 ## Abstract
-~~This subteam's objective is to better understand at the microscopic level how clay particles are filtered in stacked rapid sand filters. An acrylic flow cell is used to model clay-sand interactions at constrictions between sand particles.
-An apparatus has been developed that allows adjustment of head loss in _____. The team must develop a more accurate method of modeling constrictions between sand particles.~~
 
- Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
+The Spring 2018 Filter Constrictions subteam has worked to improve the model of floc deposition at a flow constriction. Specifically, the model mimics clay-sand interactions at constrictions between a filter's sand particles. The current model is comprised of an acrylic flow cell using a wire as a flow constrictor. The Spring 2018 team aims to adjust this design by altering its internal components and geometry; the team also plans to better control the system flow. After these changes to the model and schematic, the flow cell will more accurately represent floc behavior in AguaClara's stacked rapid sand filters.
 
 ## Introduction
 Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
 
+(Last semester) The Filter Constrictions team is still working on providing evidence for the hypothesis that particles are captured preferentially at flow restrictions in sand filters. At flow restrictions, streamlines converge and  thus particles that are near the sand grain (the edge of a pore) move closer to the edge at the contraction. This results in an increased rate of deposition of flocs at the constriction. As more particles collide with each other and build up at the constriction, the velocity through the restriction increases until the particles can {rotate sufficiently} to pass through the constriction.
+The team replicated the flow cell and flocculator created by last semester's team. The flow cell reactor was designed using two clear acrylic blocks and creating a channel 0.5 mm deep out of silicone. The flow constriction was 0.3 mm, and created a 0.2 mm channel by the constriction for particles to flow through.  The camera was then used to capture what occurred at the constriction. In order to get a better video to observe the phenomenon that occurs at the constriction, the team used dye instead of clay to create flocs. If the camera captured particles depositing on the flow restriction, this would be consistent with filter constriction theory.
+
 ## Literature Review and Previous Work
 Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
 
+StaRS Paper: A Model for Stacked Rapid Sand Filters [(Li et. al. 2017)](https://www.overleaf.com/6268224jmjfms#/21041070/)
+
+Filter Constrictions Fall 2017 [(Dokko et. al. 2017)](https://www.overleaf.com/read/gjkjdyvyhnxs#/41170384/)
+
+Trajectory Calculation of Particle Deposition in Deep Bed Filtration
+[(Payatakes et. al. 1974)](https://drive.google.com/file/d/0B2Su1EcHj_CAcDFKeWFOSlo5MW8/view?ts=5a95c98e)
 
 
 ## Methods
@@ -32,20 +32,36 @@ Below, some example sections are given. Sectioning the report is meant to keep s
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way.
 * Design (calculations, constraints)
 
-  $\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
+**To calculate head loss**:
+$\Delta h = \frac{128L}{\rho g\pi} \frac{\mu Q}{D^4}$
+
 * Schematic (label parts)
 
-  <img src="https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/IMG_0009.jpg?raw=true" height=250 width=200>
+  <img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Copy%20of%20Schematic.jpg?raw=true"/>
 
 * Image (from lab; label parts)
 * Materials (dimensions, materials)
+<img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Flowcellsketch.jpg?raw=true" />
+
 * Complications in construction
+  - photo of sand grains
+  - creating 0.5mm width channel
 * If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
 
 ### Procedure
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
 
+In order to observe the floc-sand interactions at a constriction, a flow cell was developed to model the microscale occurrence. The flow cell has clear acrylic walls to allow for easy viewing and video recoridng of the events at the constriction. The constriction was modeled in the past using a wire where the 0.3 mm diameter wire created a 0.2 mm constriction between the walls of the cell since a silicon sheet created a water-tight 0.5 mm space between the two acrylic pieces. The system was set up in such a way that flocs would be developed in the flocculator preceding the flow cell and the floc behavior would then be observed by a close-up camera set at the constriction of the flow cell.
+  Though the flocs have historically been made of coagulant (PACl) and clay, the subteam recently chose to switch to using red dye to form flocs. This  
+
+
 ## Results and Analysis
+
+* new design possibilities
+  - row of sand grains
+  - creating one constriction column
+    - issue talk about need to change velocity by manipulating height of head loss tubing
+
 Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.  
 In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
 
@@ -54,30 +70,6 @@ When describing your results, present your data, using the guidelines below:
 * Show your experimental data in a professional way.
 
 
-$$\Delta p = \rho g \Delta h $$
-$$\Delta p = \frac{128L}{\pi} \frac{\mu Q}{D^4}$$
-$$\Delta h = \frac{128L}{\rho g\pi} \frac{\mu Q}{D^4}$$
-
-```python
-from aide_design.play import *
-import math as m
-from scipy import constants
-V_filter = 1.85*u.mm/u.s
-A_filter = (0.5*u.mm)**2
-Q_filter = V_filter*A_filter
-Q_filter.to(u.ul/u.min)
-Q_sand = 555*u.ul/u.min
-L = 275*u.cm
-(L*2.75).to(u.m)
-3*L.to(u.m)
-g = constants.g*u.m/(u.s)**2
-rho = 1*u.g/(u.cm)**3
-mu = 8.90*(10**(-4))*u.Pa *u.s
-D =  0.042*u.inch
-deltah = (128*L*mu*Q_sand)/(rho*g*m.pi*D**4)
-deltah.to(u.cm)
-
-```
 
 
 After describing a particular result, within a paragraph, go on to connect your work to fundamental physics/chemistry/statics/fluid mechanics, or whatever field is appropriate. Analyze your results and compare with theoretical expectations; or, if you have not yet done the experiments, describe your expectations based on established knowledge. Include implications of your results. How will your results influence the design of AguaClara plants? If possible provide clear recommendations for design changes that should be adopted. Show your experimental data in a professional way using the following guidelines:
@@ -92,72 +84,162 @@ Explain what you have learned and how that influences your next steps. Why does 
 Make sure that you defend your conclusions with facts and results.
 
 ## Future Work
-Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
+
+* Increase length of microtubing
+* Look into needle valve
+* Find correct height for for the head loss tubing
 
 ## Bibliography
 Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
 
 # Manual
-The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
+This manual lays out the details of the material and methods used for the aforementioned experiments.
 
 ## Fabrication Details
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
+### Flow Cell
+* Two 6" x 2.75" clear acrylic sheets
+* 1/32" silicone sheet
+* 0.3mm diameter wire
+* Ten screws
+* Ten wingnuts
+* Sand
 
-## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+
+### Model flocculator
+* 3.5" diameter cylindrical cardboard tube
+* 11.45m long flexible tubing with 1/4" Diameter
+* Tape
+* Push-to-connects with barbed connections
+
+### Systemic Apparatus
+* Two peristaltic pumps
+* Model flocculator (described above)
+* Four 1L Nalgene bottles
+* FlyCapture camera with software
+* LED light
+* 1/4" hard tubing
+* Microtubing
+* Polyaluminum Chloride (PACl) coagulant
+* Red #40 dye
+
 
 ## Experimental Methods
 ### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
+1. Turn the valves of the inlet (Blue) and outlet (Red) hoses to the open positions (vertical handle).
+  * If the dye and/or coagulant bottles are not connected to the system, replace the water bottles with the correct chemicals. See tube labeling to ensure proper correspondence of microtubing to chemical.
+2. Turn on the pumps and make sure that both the water pump and coagulant/dye pumps are running in the clockwise direction.
+3. Ensure both pumps are on "INT" mode.
+4. Set the water pump to 38.9 rpm and the dye/coagulant pump to 20 rpm.
+5. Set up camera and connect it to the computer. If it does not show up, click Force IP.
+
+ Setting up the camera
+ * Unscrew the caps from both ends of the camera and the camera holding device connected to the computer.
+ * Screw the camera onto the holding device
+ * Attention: It is very important that no finger prints are left on any of the lenses of the camera to ensure no disruption in the footage
+
 
 ### Experiment
-Step 1.
+1. Check that the flow cell is cleared of any old flocs, free of air bubbles and properly set up in its mount with the outlet side down.
+2. Turn on both of the pumps.
+3. Let the pumps run until flocs begin to form.
+4. Keeping the pumps running, start recording a video using the Point Grey FlyCap Software.
+
+### Running FlyCap Software
+1. Open the Point Grey FlyCap software.
+2. Make sure that the camera is connected to the computer and shows up as the recording device on the screen.
+3. Zoom in or out of the footage screen to adjust to the full capacity of the video dimensions.
+4. Click record.
+5. When the new window opens up check that the file path is directed in the proper folder location.
+6. Change the "Image" tab to the "Video" tab and select "MPEG" from the drop down menu.
+7. Click the button below the file type and it should automatically select the appropriate values for the file type.
+8. Click "Start Recoring" at the bottom of the window.
+  * Check that the number of "Corrupted Images" remains low and the number of "Saved Images" increases accordingly.
+  * Do not record for too long as the video may not save properly if it is too large.
 
 ### Cleaning Procedure
-Step 1.
+1. Obtain a bucket and fill it with clean, cold water. Place it on a stand to put it at the height of the flow cell mount.
+  * Cold water is necessary to minimized dissolved oxygen levels. This will prevent air bubble formation in the flow cell later.
+2. Turn the valves of the inlet (Blue) and outlet (Red) hoses to the open positions (vertical handle).
+3. Turn on just the water pump to flush out the system of chemicals.
+4. Submerge the flow cell in the bucket of cold water and open the flow cell by unscrewing all ten screws.
+5. Clean the flow cell using glass cleaner and paper towels.
+6. While maintaining the flow cell underwater, reassemble the flow cell with proper silicon and wire orientation. Screw all 10 screws tightly.
+    - Check that neither the outlet or inlet holes are covered by the silicone piece. The silicone piece can slide around during this step.
+    - Some screws may not slide in easily due to alignment. Loosely attach all ten screww, then tighten for better alignment. Use philips screwdriver.
+7. If air bubbles are trapped, tap the sides of the flow cell with the outlet facing up to allow bubbles to exit upwards. DO NOT tap the face as it may damage the surface and decrease visibility in the footage.  
+8. Turn off pumps if no experiments are to follow immediately after cleaning. If experiments are to follow immediately, switch the dye and coagulant pump on and begin experiment.
 
 ## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
+* Check that the coagulant and dye are plugged into their proper pump tubings.
+* Check that the flow cell is cleaned and free of air bubbles.
+* Check that both the inlet and outlet valves are open.
+* Check that the flow cell inlet and outlet are not covered by the silicone sheet.
+* Check that the headloss adjustment is at the proper height.
+
 
 ## ProCoDA Method File
-Use this section to explain your method file. This could be broken up into several components as shown below:
-
-### States
-Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
-\begin{itemize}
-\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
-\end{itemize}
-
-### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
+ProCoDA has not been used for this apparatus.
 
 ## Python Code
 
 ### Variables
-$g$: gravity
-$\sigma$: dispersion
-$a$: amplitude
-$h$: water depth
-$H$: distance from wave crest to trough (2$a$)
-$T$: wave period
-$\lambda$: wavelength
-$k$: wavenumber
-$c_p$: celerity (wave phase speed)
-$P$: pressure
-$F$: force
-$u$, $w$: x-velocity, z-velocity components
+$p$: pressure \
+$\rho$: density of the fluid (water)\
+$g$: gravity \
+$h$: head loss \
+$L$: length of tubing \
+$\mu$: dynamic viscosity of the fluid (water) \
+$Q$: flow rate\
+$D$: Diameter of tube \
+
+The equations for pressure:
+$$\Delta p = \rho g \Delta h $$
+$$\Delta p = \frac{128L}{\pi} \frac{\mu Q}{D^4}$$
+**To calculate head loss**:
+$$\Delta h = \frac{128L}{\rho g\pi} \frac{\mu Q}{D^4}$$
+
+First if we were to model one constriction with the average velocity through the pores of the filter column.
 
 ```python
-# Comment
-```
+from aide_design.play import *
+import math as m
+from scipy import constants
+V_filter = 1.85*u.mm/u.s
+A_filter = (0.5*u.mm)**2
+Q_filter = V_filter*A_filter
+Q_filter.to(u.ul/u.min)
 
-# Add/Delete/Change this Template as you see Fit
-When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
+L = 275*u.cm
+g = constants.g*u.m/(u.s)**2
+rho = 1*u.g/(u.cm)**3
+mu = 8.90*(10**(-4))*u.Pa *u.s
+D =  0.042*u.inch
+deltah = (128*L*mu*Q_filter)/(rho*g*m.pi*D**4)
+deltah.to(u.cm)
+
+```
+0.36 cm of head loss
+
+This head loss is too small to be able to adjust with the height of the waste tube, and therefore the team must find another solution. The first possible solution is to use a row of sand grains and then model the constriction through multiple pores. This allows us to increase the flow rate through the flow cell and thus have a higher, more manageable head loss.
+
+```python
+Q_sand = 555*u.ul/u.min
+deltah_sand = (128*L*mu*Q_sand)/(rho*g*m.pi*D**4)
+deltah_sand.to(u.cm)
+```
+7.26 cm of head loss
+
+```python
+# If we use an entire roll of micro tubing
+L2 = 100*u.feet
+deltah2 = (128*L2*mu*Q_sand)/(rho*g*m.pi*D**4)
+deltah2.to(u.cm)
+```
+80 centimeters of head loss.
+
+
 
 ```python
 # To convert the document from markdown to pdf
-pandoc Name_of_this_file.md -o TeamName_Research_Report.pdf
+pandoc Name_of_this_file.md -o Filter-Constrictions_Research_Report1.pdf
 ```
