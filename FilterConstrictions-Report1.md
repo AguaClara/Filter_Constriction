@@ -19,22 +19,22 @@ The Spring 2018 subteam determined that the wire constriction was insufficient t
 
 ## Literature Review and Previous Work
 
-As fluid passes through a pipe, minor head loss occurs when the flow encounters a sudden contraction. The change in flow area causes the streamlines to contract; the streamtube becomes smaller than the area it passed through right after the constriction. This causes the *vena contracta*: the place where the cross sectional area of flow is at a minimum, as shown in Figure 1.
+As the fluid passes through a pipe, minor head loss occurs when the flow encounters a sudden contraction. The change in flow area causes the streamlines to contract; the streamtube becomes smaller than the area it passed through right after the constriction. This causes the *vena contracta*: the place where the cross-sectional area of flow is at a minimum, as shown in Figure 1.
 
-<p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Hydraulic_vena_contracta_275px.png?raw=true" width="25%"/>
+<p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Hydraulic_vena_contracta_275px.png?raw=true"/>
 </p>
 
 **Figure 1**: Streamlines gradually converge before passing through a constriction. They converge until the *vena contracta*, after which they widen.
 
 
-After the *vena contracta*, the stream tube expands to the fit the pipe [(Kanpur 2009)](). In sand filters, particles are more likely to be captured at these flow restrictions. As the streamlines converge at the restriction, the streamlines become denser. Space between the outermost streamline and the constriction wall decreases, increasing the chance that a floc will come in contact with the wall and be captured. Flocs build up at the constriction at an increasing rate as collisions between particles increase. This further decreases the flow area, as shown in Figure 2. As the flow area becomes smaller, the velocity of the water passing through the constriction reaches a point where it is great enough that the drag of particles colliding with the constriction is enough to prevent attachment and to push the particle through the smaller area [(Weber-Shirk 2017)](https://courses.cit.cornell.edu/cee4540/pdf/Flow%20Control%20and%20Measurement.pdf).
+After the *vena contracta*, the stream tube expands to the fit the pipe [(Kanpur 2009)](). In sand filters, particles are more likely to be captured at these flow restrictions. As the streamlines converge at the restriction, the streamlines become denser. Space between the outermost streamline and the constriction wall decreases, increasing the chance that a floc will come in contact with the wall and be captured. Flocs build up at the constriction at an increasing rate of collisions between particles increase. This further decreases the flow area, as shown in Figure 2. As the flow area becomes smaller, the velocity of the water passing through the constriction reaches a point where it is great enough that the drag of particles colliding with the constriction is enough to prevent attachment and to push the particle through the smaller area [(Weber-Shirk 2017)](https://courses.cit.cornell.edu/cee4540/pdf/Flow%20Control%20and%20Measurement.pdf).
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/ConstrictionsSandGrains.png?raw=true" width="35%"/>
 </p>
 
 **Figure 2**: Flow area decreases as flocs collide and accumulate at the constriction.
 
-The Fall 2016 Milli-Sedimentation Team found that when turbid water  passed through nonaligned honeycomb structures, flocs deposited where flow was constricted between honeycombs. Both the Milli-Sedimentation team and the StaRS Filter team provided evidence to support the filter constrictions theory detailed in the introduction
+The Fall 2016 Milli-Sedimentation Team found that when turbid water passed through nonaligned honeycomb structures, flocs deposited where flow was constricted between honeycombs. Both the Milli-Sedimentation team and the StaRS Filter team provided evidence to support the filter constrictions theory detailed in the introduction
 [(Whiting et. al. 2016)](https://www.overleaf.com/8159891kkzwhhgszwtb#/28827379/). The theory was then tested using the precursor to the current flow cell model which used a singular wire constriction between two acrylic slabs, recorded with a camera. The recording showed flocs depositing at the constriction, though it was unclear at which portion of the constriction. These experiments also demonstrated that, after a large volume of flocs deposited on the constriction, there was a point at which the large floc deposition fell through as a unit [(Dokko et. al. 2017)](https://www.overleaf.com/read/gjkjdyvyhnxs#/41170384/). This was hypothesized to be equivalent to the failure point seen in the StaRS filter [(Li et. al. 2017)](https://www.overleaf.com/6268224jmjfms#/21041070/).
 
 ## Methods
@@ -72,7 +72,7 @@ The team created a new schematic, shown in Figure 5, to highlight the importance
 
 #### Flow Cell
 
-To assemble the flow cell, the Spring 2018 subteam used the same two clear acrylic blocks as the Fall 2017 subteam. The silicon layer between the acrylic blocks was cut to constrict flow, as shown in Figure 7. Two rows along the bottom acrylic block, of five tightened screws each, guarantee that the cell is water tight, as depicted in Figures 8 and 9. The flow cell is mounted in the wooden mount as shown in Figure 9. An LED rests in the mount, behind the flow cell, to provide backlighting for high quality video recordings.
+To assemble the flow cell, the Spring 2018 subteam used the same two clear acrylic blocks as the Fall 2017 subteam. The silicon layer between the acrylic blocks was cut to constrict flow, as shown in Figure 7. Two rows along the bottom acrylic block, with five tightened screws each, guarantee that the cell is watertight, as depicted in Figures 8 and 9. The flow cell is mounted in the wooden mount as shown in Figure 9. An LED rests in the mount, behind the flow cell, to provide backlighting for high-quality video recordings.
 
 <p align="center">
   <img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/BumpConstriction%20Design.png?raw=true" width="40%"/>
@@ -85,7 +85,7 @@ To assemble the flow cell, the Spring 2018 subteam used the same two clear acryl
 
 </p>
 
-**Figure 8**: This silicone spacer is placed under pressure between two acrylic blocks, creating a water tight seal.
+**Figure 8**: This silicone spacer is placed under pressure between two acrylic blocks, creating a watertight seal.
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/newmount.png?raw=true" width="25%"/>
 </p>
@@ -94,7 +94,7 @@ To assemble the flow cell, the Spring 2018 subteam used the same two clear acryl
 
 #### Complications in construction
 
-As the team discussed methods to design a new constriction, the first idea was to add a row of sand in the current flow cell. The team considered gluing the sand inside the flow cell; however, the glue was opaque and prevented high quality video recordings.  The team then decided to use sand grains slightly larger than the gap between the acrylic blocks, large enough to deform when pressed between the tightening blocks. As shown in Figure 10, this design was unsatisfactory for multiple reasons. The sand grains were misaligned, and large gaps arose between some grains. Water preferentially flowed between larger gaps, and the resulting flow patterns were dissimilar to those found in a sand filter.
+As the team discussed methods to design a new constriction, the first idea was to add a row of sand in the current flow cell. The team considered gluing the sand inside the flow cell; however, the glue was opaque and prevented high-quality video recordings.  The team then decided to use sand grains slightly larger than the gap between the acrylic blocks, large enough to deform when pressed between the tightening blocks. As shown in Figure 10, this design was unsatisfactory for multiple reasons. The sand grains were misaligned, and large gaps arose between some grains. Water preferentially flowed between larger gaps, and the resulting flow patterns were dissimilar to those found in a sand filter.
 
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/SandRowFlowCell2.jpg?raw=true" width = "50%"/>
@@ -111,7 +111,7 @@ In the past, the constriction was modeled through a 0.5 mm space created by a wa
 
 ## Results and Analysis
 
-The head loss equation was used to calculate the arm's appropriate height. $Q$ was calculated to be 27.75 $\mu L / min$; and the diameter $D$ of the microtubing was found to be 0.042 $in$. The length ($L$) of the microtubing is currently 275 $cm$, and the calculated flow rate through one constriction is 27.75 $\mu L / min$. The flow rate through a row of sand particles was calculated to be 555 $\mu L/min$, using the previous team's flow cell measurements, as shown in Figure 11. The length of microtubing contained in one roll is 100 $ft$.
+The head loss equation was used to calculate the arm's appropriate height. $Q$ was calculated to be 27.75 $\mu L / min$, and the diameter $D$ of the microtubing was found to be 0.042 $in$. The length ($L$) of the microtubing is currently 275 $cm$, and the calculated flow rate through one constriction is 27.75 $\mu L / min$. The flow rate through a row of sand particles was calculated to be 555 $\mu L/min$, using the previous team's flow cell measurements, as shown in Figure 11. The length of microtubing contained in one roll is 100 $ft$.
 
 Given these two lengths of microtubing and two flow values, the subteam calculated the head losses corresponding to each possible combination of tubing length and flow rate. The results are shown Table 1.  The following equation was used to calculate the apparatus' head loss:
 
@@ -138,19 +138,19 @@ The current design, corresponding to values in Table 1's first row, has a head l
 The subteam experimented with using a row of sand particles to act as constrictors; issues arose with keeping the sand in place. The sand also scratched the acrylic blocks. Determining that use of a row of sand particles was unideal, the team decided to use a design matching Table 1's second row of values. It will contain one flow constriction, a flow rate of 27.75 $\mu L/min$, and a microtubing length of 100 ft. The head loss of 4.026 $cm$ is the most feasible to implement.
 
 ## Conclusions
-The multiple new models developed by the team brought up a few interesting details for the team to consider. The implementation of a single constriction model required the installment of a long headloss microtube to further discourage flow through the flow cell. The videos recorded showed how the previous flow cell velocity was much greater than the estimated actual velocity through a pore of 2mL/min. The accuracy of the flow velocity as well as the dimensions of the flow cell itself was shown to be vital to the results of the constriction observation. Also, it became apparent that the calculated velocity from the headloss tubing was potentially different from the velocity that was actually created in the flow cell by the apparatus. The team planned to address this discrepancy by measuring the actual flow in the flow cell and manipulating the headloss tubing until the proper velocity was accomplished. In order to avoid this same issue in the future, the team inputted an adjustable headloss tubing apparatus such that the height of the tubing could easily be adjusted. Once the team figures out the relation between the absolute height of the tubing and the flow cell velocity, the height can easily be adjusted in case the flow cell requires a higher velocity (i.e. modeling more than one constriction) than that used for the one constriction model. This would be applicable for the model which uses sand grains in a row since that would model approximately ten constrictions at once. The most accurate model would help the team understand the physics of the occurrences at the constrictions between each sand particle within the sand filter such that these can be optimized for maximum performance within the plant.
+The multiple new models developed by the team brought up a few interesting details for the team to consider. The implementation of a single constriction model required the installment of a long headloss microtube to further discourage flow through the flow cell. The videos recorded showed how the previous flow cell velocity was much greater than the estimated actual velocity through a pore of 2mL/min. The accuracy of the flow velocity as well as the dimensions of the flow cell itself was shown to be vital to the results of the constriction observation. Also, it became apparent that the calculated velocity from the headloss tubing was potentially different from the velocity that was actually created in the flow cell by the apparatus. The team planned to address this discrepancy by measuring the actual flow in the flow cell and manipulating the headloss tubing until the proper velocity was accomplished. In order to avoid this same issue in the future, the team inputted an adjustable headloss tubing apparatus such that the height of the tubing could easily be adjusted. Once the team figures out the relation between the absolute height of the tubing and the flow cell velocity, the height can easily be adjusted in case the flow cell requires a higher velocity (i.e. modeling more than one constriction) than that used for the one constriction model. This would be applicable to the model which uses sand grains in a row since that would model approximately ten constrictions at once. The most accurate model would help the team understand the physics of the occurrences at the constrictions between each sand particle within the sand filter such that these can be optimized for maximum performance within the plant.
 
 ## Future Work
 
-In order to optimize the flow cell velocity to that of flluid flowing through one constriction in a StaRS filter, the length of the headloss tubing must be increased. This will greatly increase headloss and allow for a decreased flow cell velocity through the model of the single constriction. The team believes that this can be accomplished by coiling a long microtube around a cylindrical base to decrease the need for an unrealistic height increase. The team must also calculate the proper length of this microtube in order to insure that the flow velocity is accurate to that of the actual StaRS filter. The accuracy of the flow cell velocity to the calculated one can be tested using ImageJ particle tracking to measure the actual velocity in the flow cell. Alternatively, the outflow from the flow cell can be collected with respect to time to measure the velocity as well. After these are optimized, the team can determine which constriction works best as an accurate model of the flow in a sand filter.
+In order to optimize the flow cell velocity to that of fluid flowing through one constriction in a StaRS filter, the length of the headloss tubing must be increased. This will greatly increase headloss and allow for a decreased flow cell velocity through the model of the single constriction. The team believes that this can be accomplished by coiling a long microtube around a cylindrical base to decrease the need for an unrealistic height increase. The team must also calculate the proper length of this microtube in order to ensure that the flow velocity is accurate to that of the actual StaRS filter. The accuracy of the flow cell velocity to the calculated one can be tested using ImageJ particle tracking to measure the actual velocity in the flow cell. Alternatively, the outflow from the flow cell can be collected with respect to time to measure the velocity as well. After these are optimized, the team can determine which constriction works best as an accurate model of the flow in a sand filter.
 
-Further, the team is looking to insert a needle valve as part of the apparatus. This would allow for a redution in the minute pulsation observed in the flow cell. The flow accumulator was implemented in the earlier iterations of the system which seemed to decrease the major pulsation. However, considering the microscale environment of the constriction, diminishing all pulsation in the flow cell is of great importance. This step would have to come after the team figures out the details of the new constriction design.
+Further, the team is looking to insert a needle valve as part of the apparatus. This would allow for a reduction in the minute pulsation observed in the flow cell. The flow accumulator was implemented in the earlier iterations of the system which seemed to decrease the major pulsation. However, considering the microscale environment of the constriction, diminishing all pulsation in the flow cell is of great importance. This step would have to come after the team figures out the details of the new constriction design.
 
 
 
 
 ## Bibliography
-Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
+Logan, B. E., Hermanowicz, S. W., & Parker, A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
 
 # Manual
 This manual lays out the details of the material and methods used for the aforementioned experiments.
@@ -186,16 +186,16 @@ This manual lays out the details of the material and methods used for the aforem
 ## Experimental Methods
 ### Set-up
 1. Turn the valves of the inlet (Blue) and outlet (Red) hoses to the open positions (vertical handle).
-  * If the dye and/or coagulant bottles are not connected to the system, replace the water bottles with the correct chemicals. See tube labeling to ensure proper correspondence of microtubing to chemical.
+  * If the dye and/or coagulant bottles are not connected to the system, replace the water bottles with the correct chemicals. See tube labeling to ensure proper correspondence of microtubing to the chemical.
 2. Turn on the pumps and make sure that both the water pump and coagulant/dye pumps are running in the clockwise direction.
 3. Ensure both pumps are on "INT" mode.
 4. Set the water pump to 38.9 rpm and the dye/coagulant pump to 20 rpm.
-5. Set up camera and connect it to the computer. If it does not show up, click Force IP.
+5. Set up the camera and connect it to the computer. If it does not show up, click Force IP.
 
  Setting up the camera
  * Unscrew the caps from both ends of the camera and the camera holding device connected to the computer.
  * Screw the camera onto the holding device
- * Attention: It is very important that no finger prints are left on any of the lenses of the camera to ensure no disruption in the footage
+ * Attention: It is very important that no fingerprints are left on any of the lenses of the camera to ensure no disruption in the footage
 
 
 ### Experiment
@@ -209,25 +209,25 @@ This manual lays out the details of the material and methods used for the aforem
 2. Make sure that the camera is connected to the computer and shows up as the recording device on the screen.
 3. Zoom in or out of the footage screen to adjust to the full capacity of the video dimensions.
 4. Click record.
-5. When the new window opens up check that the file path is directed in the proper folder location.
-6. Change the "Image" tab to the "Video" tab and select "MPEG" from the drop down menu.
-7. Click the button below the file type and it should automatically select the appropriate values for the file type.
-8. Click "Start Recoring" at the bottom of the window.
+5. When the new window opens up check that the file path is directed to the proper folder location.
+6. Change the "Image" tab to the "Video" tab and select "MPEG" from the drop-down menu.
+7. Click the button on the file type and it should automatically select the appropriate values for the file type.
+8. Click "Start Recording" at the bottom of the window.
   * Check that the number of "Corrupted Images" remains low and the number of "Saved Images" increases accordingly.
   * Do not record for too long as the video may not save properly if it is too large.
 
 ### Cleaning Procedure
 1. Obtain a bucket and fill it with clean, cold water. Place it on a stand to put it at the height of the flow cell mount.
-  * Cold water is necessary to minimized dissolved oxygen levels. This will prevent air bubble formation in the flow cell later.
+  * Cold water is necessary to minimize dissolved oxygen levels. This will prevent air bubble formation in the flow cell later.
 2. Turn the valves of the inlet (Blue) and outlet (Red) hoses to the open positions (vertical handle).
 3. Turn on just the water pump to flush out the system of chemicals.
 4. Submerge the flow cell in the bucket of cold water and open the flow cell by unscrewing all ten screws.
 5. Clean the flow cell using glass cleaner and paper towels.
 6. While maintaining the flow cell underwater, reassemble the flow cell with proper silicon and wire orientation. Screw all 10 screws tightly.
     - Check that neither the outlet or inlet holes are covered by the silicone piece. The silicone piece can slide around during this step.
-    - Some screws may not slide in easily due to alignment. Loosely attach all ten screww, then tighten for better alignment. Use philips screwdriver.
+    - Some screws may not slide in easily due to alignment. Loosely attach all ten screw, then tighten for better alignment. Use Philips screwdriver.
 7. If air bubbles are trapped, tap the sides of the flow cell with the outlet facing up to allow bubbles to exit upwards. DO NOT tap the face as it may damage the surface and decrease visibility in the footage.  
-8. Turn off pumps if no experiments are to follow immediately after cleaning. If experiments are to follow immediately, switch the dye and coagulant pump on and begin experiment.
+8. Turn off pumps if no experiments are to follow immediately after cleaning. If experiments are to follow immediately, switch the dye and coagulant pump on and begin the experiment.
 
 ## Experimental Checklist
 * Check that the coagulant and dye are plugged into their proper pump tubings.
@@ -258,7 +258,7 @@ $$\Delta p = \frac{128L}{\pi} \frac{\mu Q}{D^4}$$
 **To calculate head loss**:
 $$\Delta h = \frac{128L}{\rho g\pi} \frac{\mu Q}{D^4}$$
 
-First if we were to model one constriction with the average velocity through the pores of the filter column.
+First, if we were to model one constriction with the average velocity through the pores of the filter column.
 
 ```python
 from aide_design.play import *
