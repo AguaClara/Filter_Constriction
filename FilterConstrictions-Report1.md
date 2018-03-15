@@ -2,9 +2,21 @@
 #### Thomas Bradford, Jacqueline Dokko, Jonathan Harris
 #### March 9, 2018
 
+<div class="alert alert-block alert-danger">
+Please do not delete my comments. On the next submission I will use them to see if the issues were addressed and then I will delete them. If you disagree with a comment, just add your own underneath it. Also in the future, denote which report I should grade since there are two similarly named reports.
+</div>
+
 ## Abstract
 
 The Spring 2018 Filter Constrictions subteam has worked to improve the model of floc deposition at a flow constriction. Specifically, the model mimics clay-sand interactions at constrictions between a filter's sand particles. The current model is comprised of an acrylic flow cell using a wire as a flow constrictor. The Spring 2018 team aims to adjust this design by altering its internal components and its geometry; the team also plans to better control the system flow. After these changes to the model and schematic, the flow cell will more accurately represent floc behavior in AguaClara's stacked rapid sand filters.
+
+<div class="alert alert-block alert-danger">
+Change "has worked" to "is working" in the first sentence to match with the sentence "the team aims to adjust" - Consistent verbs
+
+What information are you trying to get out of your model? Are you only making modifications to the set-up this semester or are you running experiments too?
+
+Model is used in terms of a experimental model and also a theoretical model, consider only calling the theoretical model a model and the experimental model an experimental apparatus.
+</div>
 
 ## Introduction
 
@@ -14,12 +26,29 @@ To evaluate this theory, the Filter Constrictions subteam will develop a method 
 
 The Fall 2017 subteam built a flow cell reactor comprised of two clear acrylic blocks that were separated by a specially shaped layer of silicone, creating a channel 0.5 mm deep. A 0.3 mm diameter wire restricted flow, resulting in a 0.2 mm vertical channel for particles to flow through. The camera recorded what occurred at this constriction. In order to record a higher quality video to analyze flow and deposition, the subteam used red dye instead of clay to create flocs.
 
+<div class="alert alert-block alert-danger">
+Consider putting the numbers/details in the methods or manual sections.
+</div>
+
 The Spring 2018 subteam determined that the wire constriction was insufficient to accurately model constrictions in a sand filter. Since the camera recorded perpendicularly to the flow cell and the wire lay horizontally across said cell, the constriction was outside the camera’s plane of view. Also, the wire-constriction was two-dimensional; when flocs deposited, flocs were able to pass around them in a path dissimilar to that in a sand filter. The Spring 2018 subteam aims to alter the flow cell to contain more realistic constrictions, all visible to the camera. Since the filter’s sand grains are 0.6 mm in diameter, due to the geometry of large quantities of sand particles, each constriction should result from a channel, 0.5 mm in diameter and in depth, and a flow restriction of radius 0.3 mm. The subteam must determine the most effective and efficient way to implement these parameters.
 
+<div class="alert alert-block alert-danger">
+Again consider moving specific numbers into methods section.
+
+The meaning of the last two sentences is unclear.
+
+Give overview of how you will determine the most effective and efficient way to implement these parameters.
+
+Good description of theory.
+</div>
 
 ## Literature Review and Previous Work
 
 As the fluid passes through a pipe, minor head loss occurs when the flow encounters a sudden contraction. The change in flow area causes the streamlines to contract; the streamtube becomes smaller than the area it passed through right after the constriction. This causes the *vena contracta*: the place where the cross-sectional area of flow is at a minimum, as shown in Figure 1.
+
+<div class="alert alert-block alert-danger">
+The sentence "the streamtube becomes smaller than the area it passed through right after the constriction" is unclear.
+</div>
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Hydraulic_vena_contracta_275px.png?raw=true"/>
 </p>
@@ -29,6 +58,14 @@ As the fluid passes through a pipe, minor head loss occurs when the flow encount
 
 After the *vena contracta*, the stream tube expands to the fit the pipe [(Kanpur 2009)](). In sand filters, particles are more likely to be captured at these flow restrictions. As the streamlines converge at the restriction, the streamlines become denser. Space between the outermost streamline and the constriction wall decreases, increasing the chance that a floc will come in contact with the wall and be captured. Flocs build up at the constriction at an increasing rate of collisions between particles increase. This further decreases the flow area, as shown in Figure 2. As the flow area becomes smaller, the velocity of the water passing through the constriction reaches a point where it is great enough that the drag of particles colliding with the constriction is enough to prevent attachment and to push the particle through the smaller area [(Weber-Shirk 2017)](https://courses.cit.cornell.edu/cee4540/pdf/Flow%20Control%20and%20Measurement.pdf).
 
+<div class="alert alert-block alert-danger">
+Do the flocs stick to the pipe walls or are they settling out? Saying that "a floc will come into contact with the wall and be captured" sounds like stickiness to me.
+
+Some sentences don't make sense. Revise this paragraph
+
+Why is vena contracta italicized?
+</div>
+
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/ConstrictionsSandGrains.png?raw=true" width="35%"/>
 </p>
 
@@ -37,11 +74,25 @@ After the *vena contracta*, the stream tube expands to the fit the pipe [(Kanpur
 The Fall 2016 Milli-Sedimentation Team found that when turbid water passed through nonaligned honeycomb structures, flocs deposited where flow was constricted between honeycombs. Both the Milli-Sedimentation team and the StaRS Filter team provided evidence to support the filter constrictions theory detailed in the introduction
 [(Whiting et. al. 2016)](https://www.overleaf.com/8159891kkzwhhgszwtb#/28827379/). The theory was then tested using the precursor to the current flow cell model which used a singular wire constriction between two acrylic slabs, recorded with a camera. The recording showed flocs depositing at the constriction, though it was unclear at which portion of the constriction. These experiments also demonstrated that, after a large volume of flocs deposited on the constriction, there was a point at which the large floc deposition fell through as a unit [(Dokko et. al. 2017)](https://www.overleaf.com/read/gjkjdyvyhnxs#/41170384/). This was hypothesized to be equivalent to the failure point seen in the StaRS filter [(Li et. al. 2017)](https://www.overleaf.com/6268224jmjfms#/21041070/).
 
+<div class="alert alert-block alert-danger">
+Is there a name for the filter constrictions theory detailed in the intro so that referring to it is easier?
+
+Define StaRS acronym
+</div>
+
 ## Methods
 
 #### Experimental Apparatus
 
 The apparatus' head loss ($\Delta H$) is manipulated to create the necessary flow rate ($Q$) through the flow cell. Previous semesters' Filter Constrictions subteams used various set heights within the laboratory, such as pipes near the ceiling. The Spring 2018 team designed and fabricated a vertically adjustable head loss arm using 80/20. This device allows more accurate control of the height of the T-connector at the top of the head loss tubing, as shown in Figure 3. The arm's most important component is a lever that allows easy vertical movement of the 80/20 beam, as shown in Figure 4. This enables more accurate control of the apparatus' head loss.
+
+<div class="alert alert-block alert-danger">
+Did not give background on what the experimental apparatus actually is. Without that, the headloss part does not make sense.
+
+Also why is head loss important?
+
+Describe 80/20
+</div>
 
 <p align="center">
 <img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/HeadlossAdjuster.jpg?raw=true" width="25%" />
@@ -70,6 +121,12 @@ The team created a new schematic, shown in Figure 5, to highlight the importance
 
 **Figure 6**:  The flow apparatus, shown with labeled parts.
 
+<div class="alert alert-block alert-danger">
+Describe what else is in the scematic, walk us through the different parts and their importance? What tools do you use for data collections?
+
+Figures are good references but they cannot stand by themselves.
+</div>
+
 #### Flow Cell
 
 To assemble the flow cell, the Spring 2018 subteam used the same two clear acrylic blocks as the Fall 2017 subteam. The silicon layer between the acrylic blocks was cut to constrict flow, as shown in Figure 7. Two rows along the bottom acrylic block, with five tightened screws each, guarantee that the cell is watertight, as depicted in Figures 8 and 9. The flow cell is mounted in the wooden mount as shown in Figure 9. An LED rests in the mount, behind the flow cell, to provide backlighting for high-quality video recordings.
@@ -92,10 +149,21 @@ To assemble the flow cell, the Spring 2018 subteam used the same two clear acryl
 
 **Figure 9**: The flow cell contained in the previously created mount.
 
+<div class="alert alert-block alert-danger">
+Good figures but not enough description of what they are.
+
+I don't understand how water is flowing through the system.
+</div>
+
 #### Complications in construction
 
 As the team discussed methods to design a new constriction, the first idea was to add a row of sand in the current flow cell. The team considered gluing the sand inside the flow cell; however, the glue was opaque and prevented high-quality video recordings.  The team then decided to use sand grains slightly larger than the gap between the acrylic blocks, large enough to deform when pressed between the tightening blocks. As shown in Figure 10, this design was unsatisfactory for multiple reasons. The sand grains were misaligned, and large gaps arose between some grains. Water preferentially flowed between larger gaps, and the resulting flow patterns were dissimilar to those found in a sand filter.
 
+<div class="alert alert-block alert-danger">
+This section has great content, but is it technically a construction complication? It seems more like a design process.
+
+As an aside, this methods section is a little scattered and might benefit from reorganizing the sections.
+</div>
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/SandRowFlowCell2.jpg?raw=true" width = "50%"/>
 </p>
@@ -108,6 +176,10 @@ To observe the floc-sand interactions at a constriction, a flow cell was develop
 The system was set up in such a way that flocs would be developed in the flocculator preceding the flow cell; the floc behavior would then be recorded by a close-up camera set at the constriction of the flow cell. These experiments were run for durations up to an hour to observe the short term and long term events at the constriction.
 
 In the past, the constriction was modeled through a 0.5 mm space created by a water-tight silicon spacer between the acrylic pieces where a 0.3 mm diameter wire created a 0.2 mm constriction between the acrylic walls of the cell. Though the flocs have historically been made of coagulant (PACl) and clay, the Filter Constrictions subteam recently chose to switch out the clay for red dye #40. This increased floc visibility, attributed to color contrast in the video footage.
+
+<div class="alert alert-block alert-danger">
+This Procedure Section does not actually have a procedure, which would be a set of steps on how to run the experiment. This is a description of your apparatus and should be moved there. In the Procedure Section, provide the How-to on how to run your experiment and how you collected data.
+</div>
 
 ## Results and Analysis
 
@@ -126,6 +198,9 @@ $$\Delta H = \frac{128L}{\rho g\pi} \frac{\mu Q}{D^4}$$
 |        275cm         |         555         |           7.262           |
 |         100'         |         555         |          80.492           |
 
+<div class="alert alert-block alert-danger">
+It seems like since you are doing a lot of design, maybe there should be a Design section where these equations should go? If not a design section, then these should be in the methods and manual sections
+</div>
 
 <p align="center">
 <img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Flowcellsketch.jpg?raw=true" width ="50%" />
@@ -137,8 +212,24 @@ The current design, corresponding to values in Table 1's first row, has a head l
 
 The subteam experimented with using a row of sand particles to act as constrictors; issues arose with keeping the sand in place. The sand also scratched the acrylic blocks. Determining that use of a row of sand particles was unideal, the team decided to use a design matching Table 1's second row of values. It will contain one flow constriction, a flow rate of 27.75 $\mu L/min$, and a microtubing length of 100 ft. The head loss of 4.026 $cm$ is the most feasible to implement.
 
+<div class="alert alert-block alert-danger">
+Good analysis of these results.
+
+Results & Analysis is really light right now, and I understand that this is only half way through the semester so there isn't much, but for the next report, add in more analysis of whatever results/design parameters you get.
+</div>
+
 ## Conclusions
 The multiple new models developed by the team brought up a few interesting details for the team to consider. The implementation of a single constriction model required the installment of a long headloss microtube to further discourage flow through the flow cell. The videos recorded showed how the previous flow cell velocity was much greater than the estimated actual velocity through a pore of 2mL/min. The accuracy of the flow velocity as well as the dimensions of the flow cell itself was shown to be vital to the results of the constriction observation. Also, it became apparent that the calculated velocity from the headloss tubing was potentially different from the velocity that was actually created in the flow cell by the apparatus. The team planned to address this discrepancy by measuring the actual flow in the flow cell and manipulating the headloss tubing until the proper velocity was accomplished. In order to avoid this same issue in the future, the team inputted an adjustable headloss tubing apparatus such that the height of the tubing could easily be adjusted. Once the team figures out the relation between the absolute height of the tubing and the flow cell velocity, the height can easily be adjusted in case the flow cell requires a higher velocity (i.e. modeling more than one constriction) than that used for the one constriction model. This would be applicable to the model which uses sand grains in a row since that would model approximately ten constrictions at once. The most accurate model would help the team understand the physics of the occurrences at the constrictions between each sand particle within the sand filter such that these can be optimized for maximum performance within the plant.
+
+<div class="alert alert-block alert-danger">
+What videos are you referrig to? You don't talk about collecting any data, only designing changes to your system. You also do not discuss velocity differences.
+
+Additionally, this is the first time you reference "sand grains in a row"
+
+These conclusions don't match up to what you spoke about in your methods/results/analysis portions.
+
+It is also one long paragraph
+</div>
 
 ## Future Work
 
@@ -146,11 +237,19 @@ In order to optimize the flow cell velocity to that of fluid flowing through one
 
 Further, the team is looking to insert a needle valve as part of the apparatus. This would allow for a reduction in the minute pulsation observed in the flow cell. The flow accumulator was implemented in the earlier iterations of the system which seemed to decrease the major pulsation. However, considering the microscale environment of the constriction, diminishing all pulsation in the flow cell is of great importance. This step would have to come after the team figures out the details of the new constriction design.
 
+<div class="alert alert-block alert-danger">
+These are gret coherent next steps, but again I don't understand where they are coming from because they weren't mentioned in your results/analysis.I am not sure what the minute pulsation is or the flow accumulator.
 
+In general, you should not be introducing new concepts in the future work or conclusion areas.
+</div>
 
 
 ## Bibliography
 Logan, B. E., Hermanowicz, S. W., & Parker, A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
+
+<div class="alert alert-block alert-danger">
+Where is the rest of this bibliography? You have at least two or three more sources in your lit review/previous work.
+</div>
 
 # Manual
 This manual lays out the details of the material and methods used for the aforementioned experiments.
@@ -182,6 +281,9 @@ This manual lays out the details of the material and methods used for the aforem
 * Polyaluminum Chloride (PACl) coagulant
 * Red #40 dye
 
+<div class="alert alert-block alert-danger">
+These lists are fantastic.
+</div>
 
 ## Experimental Methods
 ### Set-up
@@ -226,8 +328,14 @@ This manual lays out the details of the material and methods used for the aforem
 6. While maintaining the flow cell underwater, reassemble the flow cell with proper silicon and wire orientation. Screw all 10 screws tightly.
     - Check that neither the outlet or inlet holes are covered by the silicone piece. The silicone piece can slide around during this step.
     - Some screws may not slide in easily due to alignment. Loosely attach all ten screw, then tighten for better alignment. Use Philips screwdriver.
-7. If air bubbles are trapped, tap the sides of the flow cell with the outlet facing up to allow bubbles to exit upwards. DO NOT tap the face as it may damage the surface and decrease visibility in the footage.  
+7. If air bubbles are trapped, tap the sides of the flow cell with the outlet facing up to allow bubbles to exit upwards. DO NOT tap the face as it may damage the surface and decrease visibility in the footage.
 8. Turn off pumps if no experiments are to follow immediately after cleaning. If experiments are to follow immediately, switch the dye and coagulant pump on and begin the experiment.
+
+<div class="alert alert-block alert-danger">
+This section is really great.
+
+A point of clarification for what I said in the methods section: the procedure in the methods section should be the general form of this. For example you wouldn't go through every step, but you would explain the important steps, things to look for, goals (floc formation, video captures.) and then reference your manual!
+</div>
 
 ## Experimental Checklist
 * Check that the coagulant and dye are plugged into their proper pump tubings.
@@ -278,6 +386,11 @@ deltah = (128*L*mu*Q_filter)/(rho*g*m.pi*D**4)
 deltah.to(u.cm)
 
 ```
+
+<div class="alert alert-block alert-danger">
+Where does the V_filter and A_filter come from? Be explicit.
+</div>
+
 With the current set up, the team calculates 0.36 cm of head loss. This is too small to be able to adjust with the height of the waste tube, and therefore the team must find another solution. The first possible solution is to use a row of sand grains and then model the constriction through multiple pores. This allows us to increase the flow rate through the flow cell and thus have a higher, more manageable head ($\Delta H$).
 
 ```python
@@ -298,7 +411,11 @@ deltah2.to(u.cm)
 ```
 The team calculated the $\Delta H$ to be 80 centimeters.
 
+<div class="alert alert-block alert-danger">
+What is Delta H in this case? A maximum if you used the whole roll of tubing? Is that even possible with the cieling height?
 
+This section is significantly clearer than how it was described in the report methods section and should be a model for the rest of the report! shows great technical writing and strong comprehension of the material!
+</div>
 
 ```python
 # To convert the document from markdown to pdf
