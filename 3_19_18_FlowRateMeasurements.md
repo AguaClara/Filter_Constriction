@@ -1,4 +1,5 @@
 3/16/18 Measurements 
+
 |Height of lever (cm)|Volume in container (mL)|Time (min)|Flow rate (mL/min)|
 |--------------------|------------------------|----------|------------------|
 |    320*            |0.58                    |1         | 0.58                 |
@@ -20,6 +21,7 @@
 Note: the outflow tube wasn't straight for the 320cm and 260cm tests, which may have resulted in the large range of values. The outflow tube was straight for the 300cm trials, possibly resulting in the closer range of values. 
 
 3/19/18 Measurements 
+
 |Height of lever (cm)|Volume in container (mL)|Time (min)|Flow rate (mL/min)|
 |:------------------:|:----------------------:|:--------:|:----------------:|
 |    260             |4.16                    |1         |4.16              |
