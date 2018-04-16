@@ -6,7 +6,7 @@
 Please do not delete my comments. On the next submission I will use them to see if the issues were addressed and then I will delete them. If you disagree with a comment, just add your own underneath it. Also in the future, denote which report I should grade since there are two similarly named reports.
 </div>
 
-## Abstract (second draft done)
+## Abstract (done?)
 
 The Spring 2018 Filter Constrictions subteam developed and tested an apparatus to mimic floc behavior at constrictions between a filter’s sand particles. The Fall 2017 team had developed an apparatus including a flow cell that contained a wire to constrict flow. Spring 2018 members fabricated two alternative flow cells: one contained sand to form multiple constrictions; another contained a channel cut from silicone. To better control the system’s flow, members added a needle valve and an adjustable metal arm to the apparatus. The subteam recorded and analyzed videos of floc accumulation in the new apparatus.
 
@@ -18,19 +18,21 @@ What information are you trying to get out of your model? Are you only making mo
 Model is used in terms of a experimental model and also a theoretical model, consider only calling the theoretical model a model and the experimental model an experimental apparatus.
 </div>
 
-## Introduction (second draft done)
+## Introduction (third draft done)
 
-The Filter Constrictions subteam aimed to evaluate the hypothesis that as flocs flow through channels in stacked rapid sand (StaRS) filters, they deposit preferentially at flow constrictions. According to the Cylindrical Annulus Geometry (CAG) Theory, due to a constriction’s convergent streamlines, particles passing near a channel's edge progressively draw closer to this edge and deposit through sedimentation and interception [(Li et. al. 2018)](https://www.overleaf.com/read/cwqydwgftkmn). To evaluate the CAG theory and better understand the filtration process in AguaClara's water treatment plants, the Filter Constrictions subteam developed a method to model and analyze floc accumulation at a sand filter’s constriction points.
+The Filter Constrictions subteam aimed to evaluate the hypothesis that, as flocs flow through channels in stacked rapid sand (StaRS) filters, flocs deposit preferentially at the edges of flow constrictions. According to the StaRS Filter Theory subteam's Cylindrical Annulus Geometry (CAG) Theory, particles passing near a constriction's edge progressively draw closer to this edge and deposit through sedimentation and interception [(Li et. al. 2018)](https://www.overleaf.com/read/cwqydwgftkmn). To evaluate the CAG theory and to better understand the filtration process in AguaClara's water treatment plants, the Filter Constrictions subteam developed a method to model and analyze floc accumulation at a sand filter’s constriction points.
 
-The Fall 2017 subteam built a flow cell comprised of two clear acrylic blocks separated by a layer of silicone. Members cut a rectangular channel out of this silicone layer. A wire lay across the channel, decreasing the area for particles to flow through and creating a constriction. The camera recorded what occurred at this single-wire constriction. To better distinguish flocs in the camera footage, the subteam used red dye instead of clay to create flocs.
+The Fall 2017 subteam built a flow cell comprised of two clear acrylic blocks separated by a layer of silicone. Members cut a rectangular channel out of this silicone layer. A wire lay across the channel, decreasing the area for particles to flow through and creating a constriction. While water containing flocs was pumped through the flow cell, a camera recorded what occurred at this single-wire constriction; to better distinguish flocs in the camera footage, the subteam generated flocs from red dye instead of clay.
 
 <div class="alert alert-block alert-danger">
 Consider putting the numbers/details in the methods or manual sections.
+
+done
 </div>
 
 The Spring 2018 subteam determined that this design was insufficient to model a sand filter's constrictions. Since the camera recorded perpendicularly to the flow cell and the wire lay across said cell, the constriction was outside the camera’s plane of view. Also, the constriction was only two-dimensional; when flocs deposited, other flocs could pass around them in a path dissimilar to that in a sand filter. The Spring 2018 subteam aimed to alter the flow cell to contain more realistic constrictions, all visible to the camera.
 
-To determine the most efficient and effective method to model floc accumulation at a filter's constrictions, the subteam tested and captured videos of two new constriction designs: the sand constriction, and the silicone constriction. Each design was named after the material constricting flow.
+To determine the most efficient and effective method to model floc accumulation between a filter's sand particles, the subteam captured videos of flocs passing through two new constriction designs: a sand constriction, and a silicone constriction. Each design was named after the material constricting flow. These designs are explained in further detail in the Methods section.
 
 <div class="alert alert-block alert-danger">
 Again consider moving specific numbers into methods section.
@@ -44,9 +46,9 @@ Good description of theory.
 
 
 
-## Literature Review and Previous Work (Second Draft Done)
+## Literature Review and Previous Work (Third Draft Done)
 
-When fluid passes through a channel and encounters a sudden contraction, minor head loss occurs. The change in flow area causes the streamlines to converge; after passing through the constriction, the streamtube's cross-sectional area becomes smaller than that of the constriction itself. This creates the vena contracta: the location where the streamtube's cross-sectional area is at a minimum, as shown in Figure 1. After the vena contracta, the streamtube expands so its cross-sectional equals that of the channel [(Kanpur 2009)]().
+When fluid passes through a channel and encounters a sudden constriction, minor head loss occurs. The change in flow area causes the fluid's streamlines to converge; after passing through the constriction, the streamtube's cross-sectional area becomes even smaller than that of the constriction itself. This creates the vena contracta: the location where the streamtube's cross-sectional area is at a minimum, as shown in Figure 1. After the vena contracta, the streamtube expands so its cross-sectional equals that of the channel [(Kanpur 2009)]().
 
 <div class="alert alert-block alert-danger">
 The sentence "the streamtube becomes smaller than the area it passed through right after the constriction" is unclear.
@@ -57,7 +59,7 @@ The sentence "the streamtube becomes smaller than the area it passed through rig
 
 **Figure 1**: Streamlines gradually converge before passing through a constriction. They converge until the vena contracta, after which they widen.
 
-When streamlines converge at the constriction, space decreases between the outermost streamline and the constriction's wall. This increases  the chance that a floc will come into contact with the constriction's wall and deposit. Floc accumulation at the constriction further decreases the flow area through the constriction, as shown in Figure 2. Due to conservation of flow, as the streamtube's cross-sectional area decreases, the streamtube's velocity through the constriction increases; the rate of floc-collision then increases. The velocity  increases until the fluid's drag on flocs is enough to prevent deposition and to pull the flocs through the constriction [(Weber-Shirk 2017)](https://courses.cit.cornell.edu/cee4540/pdf/Flow%20Control%20and%20Measurement.pdf).
+While streamlines converge at the constriction, space decreases between the outermost streamline and the constriction's wall. This increases the chance that a floc collides with the constriction's wall and deposits. Floc accumulation at the constriction further decreases the flow area through the constriction, as shown in Figure 2. Due to conservation of flow, as the flow's cross-sectional area decreases, the flow's velocity through the constriction increases; the rate of floc-collision accordingly increases. The flow's velocity increases until the fluid's drag on flocs is enough to prevent deposition and to pull the flocs through the constriction [(Weber-Shirk 2017)](https://courses.cit.cornell.edu/cee4540/pdf/Flow%20Control%20and%20Measurement.pdf).
 
 <div class="alert alert-block alert-danger">
 Do the flocs stick to the pipe walls or are they settling out? Saying that "a floc will come into contact with the wall and be captured" sounds like stickiness to me.
@@ -76,9 +78,9 @@ Jonathan - Captured and deposit are the words used in the StaRS Model paper and 
 
 **Figure 2**: Flow area decreases as flocs collide and accumulate at the constriction.
 
-The Fall 2016 Milli-Sedimentation and Spring 2016 StaRS Filter Theory subteams provided evidence to support the CAG theory. The Milli-Sedimentation subteam found that when turbid water passed through nonaligned honeycomb structures, flocs deposited where flow was constricted between honeycombs [(Whiting et. al. 2016)](https://www.overleaf.com/8159891kkzwhhgszwtb#/28827379/). The StaRS Filter Theory subteam conducted experiments on a clogged filter running at different flow rates to find the head loss through the filter; the subteam found that the head loss through the filter had a quadratic relationship with the flow rate. This suggested that minor losses were present in the clogged filter, and thus suggested the presence of constrictions [(Chu et. al. 2016)](https://confluence.cornell.edu/display/AGUACLARA/StaRS+Filter+Theory?preview=/206635878/340897167/StaRSFilterTheoryReportFall2016.pdf).  
+The Fall 2016 Milli-Sedimentation and Spring 2016 StaRS Filter Theory subteams provided evidence to support the CAG theory. The Milli-Sedimentation subteam found that when turbid water passed through nonaligned honeycomb structures, flocs deposited where flow was restricted between honeycombs [(Whiting et. al. 2016)](https://www.overleaf.com/8159891kkzwhhgszwtb#/28827379/). This demonstrated that flocs deposited preferentially at constrictions. The StaRS Filter Theory subteam conducted experiments on a clogged filter running at different flow rates to find the head loss through the filter; the subteam found that the head loss through the filter had a quadratic relationship with the flow rate. This suggested that minor losses were present in the clogged filter, and thus confirmed the presence of constrictions in the sand filter [(Chu et. al. 2016)](https://confluence.cornell.edu/display/AGUACLARA/StaRS+Filter+Theory?preview=/206635878/340897167/StaRSFilterTheoryReportFall2016.pdf).
 
-The Fall 2017 Filter Constrictions subteam also tested the CAG theory on a single-wire constriction flow cell. Camera recordings showed flocs depositing at the constriction, though it was unclear as to where on the wire they deposited. These experiments also demonstrated that after a sufficiently large volume of flocs deposited on the constriction, the accumulated flocs fell through the constriction as a unit [(Dokko et. al. 2017)](https://www.overleaf.com/read/gjkjdyvyhnxs#/41170384/). Members hypothesized this behavior to be equivalent to a StaRS filter's failure point [(Li et. al. 2017)](https://www.overleaf.com/6268224jmjfms#/21041070/).
+The Fall 2017 Filter Constrictions subteam also tested the CAG theory on a single-wire constriction flow cell. Camera recordings showed flocs depositing at the constriction, though it was unclear as to where on the wire they deposited. Also, after a sufficiently large volume of flocs deposited on the constriction, the accumulated flocs fell through the constriction as a unit [(Dokko et. al. 2017)](https://www.overleaf.com/read/gjkjdyvyhnxs#/41170384/). Members hypothesized this behavior to be equivalent to a StaRS filter's failure point [(Li et. al. 2017)](https://www.overleaf.com/6268224jmjfms#/21041070/).
 
 <div class="alert alert-block alert-danger">
 Is there a name for the filter constrictions theory detailed in the intro so that referring to it is easier?
@@ -95,30 +97,29 @@ Since the filter’s sand grains are 0.6 mm in diameter: due to the geometry of 
 
 </span>
 
-To observe the floc-sand interactions at a constriction, a flow cell was developed to model the microscale occurrence. The flow cell had clear acrylic walls to allow for video recordings of the constriction. Analysis of the footage allows evaluation of the hypothesis.
+**The subteam** developed an apparatus to model floc behavior at a sand filter's constrictions. Flocs, developed in a flocculator, were pumped through a flow cell with clear, acrylic walls; a camera recorded their behavior at the flow cell's constriction. Such tests ran for durations up to an hour to observe short term and long term patterns, and ultimately to evaluate the CAG theory.
 
-The system was set up so flocs would develop in the flocculator preceding the flow cell; a close-up camera would then record floc behavior at the flow cell's constriction. These experiments were run for durations up to an hour to observe the short term and long term events at the constriction.
-
-In the past, the **sand filter's** constriction was modeled through a 0.5 mm space created by a water-tight silicon spacer between the acrylic pieces, where a 0.3 mm diameter wire created a 0.2 mm constriction between the acrylic walls of the cell. **Though the flocs have historically been made of coagulant (PACl) and clay, the 2017 Filter Constrictions subteam chose to switch out the clay for red dye #40. This increased floc visibility, attributed to color contrast in the video footage.**
+**Past flow cells' constrictions** were comprised of a 0.5 mm space created by a water-tight silicon spacer between the acrylic pieces, across which a 0.3 mm diameter wire lay and created a 0.2 mm constriction between the flow cell's walls. Though the flocs were historically made of coagulant (a.k.a. polyaluminum chloride, PACl) and clay, the 2017 Filter Constrictions subteam exchanged clay for red dye #40. This increased floc visibility, attributed to color contrast in the camera footage.
 
 #### Experimental Apparatus Schematic
 
-This semester's team made changes to the system highlighted in the system schematic of Figure 3. The system was developed to recreate the portion of the filtration plant where the water is filtered by layers of sand in the StaRS filter. As shown in **the figure**, the actual system apparatus allowed water to flow from the inlet, create flocs with the addition of dye and coagulant (known as polyaluminum chloride - PACl), enter the flow cell and deposit into the waste line. Tap water flowed in from the inlet line which was controlled by the first peristaltic pump. The water then entered the flow accumulator which inhibited the pulsations previously observed in the flow cell later down the line. Coagulant and dye were added by peristaltic pumps and this mixture entered the flocculator of which the length had been calculated to create flocs of the desired size. The dye was meant to mimic the dirt particles often found in the dirty water coming into the plant. Then the flocs entered a branched tubing system where most of the water was directed away from the flow cell to prevent high velocities in the flow cell which had a very small volume capacity. Then, the water from both the flow cell and the branched segment were pushed into the waste line. Videos and images of the flow cell were taken with a FlyCap camera which was mounted right next to the flow cell.
+The Spring 2018 subteam made changes to the system, highlighted below in the Figure 3 schematic. The system was developed to recreate the portion of the filtration plant where the water is filtered by layers of sand in the StaRS filter. As shown in Figure 3, the system apparatus allowed water to flow from an inlet, carry an input of flocs from the addition of dye and coagulant, enter the flow cell, and exit through the waste line.
 
- The new schematic highlights the importance of the head loss tubing to the apparatus.  The difference in the height ($\Delta H$) of the head loss tubing and the red waste line in lab dictated the flow rate through the flow cell due to the pressure differences both sides of the flow cell.
+Specifically, tap water entered the system from the inlet line, which was controlled by a peristaltic pump. The water then entered the flow accumulator, which inhibited pulsations caused by the peristaltic pump. ~~previously observed in the flow cell later down the line~~. **The water then passed through a needlve valve to further dampen the pump's pulsations** An additional peristaltic pump input coagulant and dye into the flow; the dye mimicked particles often found in dirty water entering AguaClara plants. The resulting mixture entered the flocculator, the length of which had been calculated to generate flocs of the desired size. The mixture, now containing flocs, entered a branched tubing system in which most flow was directed away from the flow cell and into the waste line. This prevented high velocities in the flow cell, which had a very small volume capacity. The flow cell's effluent traveled up tubing to the height of a vertically adjustable metal arm, to which the apex of the effluent tubing was attached. The effluent then drained into a waste container. Videos and images of the flow cell's constriction were taken with a FlyCap camera mounted next to the flow cell.
+
+Figure 3's schematic highlights the importance of the effluent, "head loss" tubing to the apparatus.  The difference in the height ($\Delta H$) between the head loss tubing and the laboratory's waste line caused a pressure gradient across the flow cell, determining flocs' flow rate.
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Copy%20of%20Schematic.jpg?raw=true" width="70%"/>
 </p>
 
-**Figure 3**: The schematic represents the flow apparatus as designed by the Fall 2017 subteam. The changes made highlight the importance of the head loss tubing at the ceiling and its relationship to the laboratory waste line. Adapted and modified from [Dokko et. al. 2017](https://www.overleaf.com/read/gjkjdyvyhnxs#/41170384/).
+**Figure 3**: This schematic represents the flow apparatus, designed by the Fall 2017 subteam and modified by the Spring 2018 subteam. Adapted and modified from [Dokko et. al. 2017](https://www.overleaf.com/read/gjkjdyvyhnxs#/41170384/).**Update the schematic with the needle valve**
 
-Figure 4 shows an image of the actual apparatus used in the laboratory. It followed the exact same flow steps outlined in the schematic of Figure 3.
 
 <p align="center">
 <img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Apparatus.jpg?raw=true" width="50%"/>
 </p>
 
-**Figure 4**:  The flow apparatus, shown with labeled parts.
+**Figure 4**:  The flow apparatus in-laboratory, shown with labeled components. **Update with needle valve**
 
 <div class="alert alert-block alert-danger">
 Describe what else is in the scematic, walk us through the different parts and their importance? What tools do you use for data collections?
@@ -129,7 +130,7 @@ RESOLVED
 </div>
 
 
-The apparatus' head loss ($\Delta H$) was manipulated to create the necessary flow rate ($Q$) through the flow cell for different flow cell designs. Head loss was the main driver for the pressure difference on either side of the flow cell which is the direct cause of water flow through the cell. Thus, the ability to control this was crucial in obtaining proper flow velocities in the cell to mimic those seen in the StaRS filters. Previous semesters' Filter Constrictions subteams used various set heights within the laboratory, such as pipes near the ceiling. The Spring 2018 team designed and fabricated a vertically adjustable head loss arm using 80/20. 80/20 is a metal rod with grooves which allow for the easy construction of stable support systems such as the aforementioned head loss arm. This device allowed for more accurate control of the height of the T-connector at the top of the head loss tubing, as shown in Figure 5. The arm's most important component was a lever that allowed easy vertical movement of the 80/20 beam, as shown in Figure 6. This enabled more accurate control of the apparatus' head loss.
+The apparatus' head loss ($\Delta H$) was manipulated to create the necessary flow rate ($Q$) through different flow cell designs. Head loss was the main driver for pressure difference across the flow cell, which is the direct cause of water flow through the cell. Thus, the ability to control this was crucial in obtaining proper flow velocities in the cell to mimic those seen in the StaRS filters. Previous semesters' Filter Constrictions subteams used various set heights within the laboratory, such as pipes near the ceiling. The Spring 2018 team designed and fabricated a vertically adjustable head loss arm using 80/20. 80/20 is a metal rod with grooves which allow for the easy construction of stable support systems such as the aforementioned head loss arm. This device allowed for more accurate control of the height of the T-connector at the top of the head loss tubing, as shown in Figure 5. The arm's most important component was a lever that allowed easy vertical movement of the 80/20 beam, as shown in Figure 6. This enabled more accurate control of the apparatus' head loss.
 
 <div class="alert alert-block alert-danger">
 Did not give background on what the experimental apparatus actually is. Without that, the headloss part does not make sense.
@@ -240,7 +241,7 @@ This Procedure Section does not actually have a procedure, which would be a set 
 RESOLVED
 </div>
 
-## Results and Analysis
+~~## Results and Analysis~~
 
 The head loss equation was used to calculate the arm's appropriate height. $Q$ was calculated to be 27.75 $\mu L / min$, and the diameter $D$ of the microtubing was found to be 0.042 $in$. The length ($L$) of the microtubing is currently 275 $cm$, and the calculated flow rate through one constriction is 27.75 $\mu L / min$. The flow rate through a row of sand particles was calculated to be 555 $\mu L/min$, using the previous team's flow cell measurements, as shown in Figure 13. The length of microtubing contained in one roll is 100 $ft$.
 
@@ -277,6 +278,29 @@ Good analysis of these results.
 Results & Analysis is really light right now, and I understand that this is only half way through the semester so there isn't much, but for the next report, add in more analysis of whatever results/design parameters you get.
 </div>
 
+## Results and Analysis
+- talk about the videos
+Put in screen shots and links
+#### Sand Constrictions
+
+[3-22 video, start at around 1:00](https://drive.google.com/file/d/1hOHrj7Ubxsh54PmYMRggNziXhx6_08Uu/view?usp=sharing)
+
+[3-23 video](https://drive.google.com/file/d/125flfmdWQUzdLbNkAbIODlrEk_kotEMs/view?usp=sharing)
+
+#### Silicon Constriction
+
+[3-28 video](https://drive.google.com/file/d/1eUqzdHFOanrB5mDO5vKKBjmP23TB9VkM/view?usp=sharing)
+
+![Inlet clogging 4-9 image](https://github.com/AguaClara/filter-constrictions/blob/master/Images/4_9_18_Entrance_Clogging.JPG?raw=true)
+
+[4-10 video](https://drive.google.com/file/d/12uSo2vY5D1GoX5RjIcvQRDqIQclu3EPT/view?usp=sharing)
+
+
+
+
+
+
+
 ## Conclusions
 The multiple new models developed by the team brought up a few interesting details for the team to consider. The implementation of a single constriction model required the installment of a long headloss microtube to further discourage flow through the flow cell. The videos recorded showed how the previous flow cell velocity was much greater than the estimated actual velocity through a pore of 2mL/min. The accuracy of the flow velocity as well as the dimensions of the flow cell itself was shown to be vital to the results of the constriction observation. Also, it became apparent that the calculated velocity from the headloss tubing was potentially different from the velocity that was actually created in the flow cell by the apparatus. The team planned to address this discrepancy by measuring the actual flow in the flow cell and manipulating the headloss tubing until the proper velocity was accomplished. In order to avoid this same issue in the future, the team inputted an adjustable headloss tubing apparatus such that the height of the tubing could easily be adjusted. Once the team figures out the relation between the absolute height of the tubing and the flow cell velocity, the height can easily be adjusted in case the flow cell requires a higher velocity (i.e. modeling more than one constriction) than that used for the one constriction model. This would be applicable to the model which uses sand grains in a row since that would model approximately ten constrictions at once. The most accurate model would help the team understand the physics of the occurrences at the constrictions between each sand particle within the sand filter such that these can be optimized for maximum performance within the plant.
 
@@ -304,11 +328,19 @@ In general, you should not be introducing new concepts in the future work or con
 
 
 ## Bibliography
-Logan, B. E., Hermanowicz, S. W., & Parker, A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
-
-Whiting, J., Shah, J., and Wang, T. (2016). Milli-sedimentation, Fall 2016.
+Chu, T
 
 Dokko, J., Fernandez-Bermejo, B., Sausele, D., Wu, C. (2017). Filter Constrictions, Fall 2017.  
+
+Kanpur,
+
+Li, J., Weber-Shirk, M., (2018). A Model for Stacked Rapid Sand Filters.
+
+Logan, B. E., Hermanowicz, S. W., & Parker, A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
+
+Weber-Shirk, M.
+
+Whiting, J., Shah, J., and Wang, T. (2016). Milli-sedimentation, Fall 2016.
 
 <div class="alert alert-block alert-danger">
 Where is the rest of this bibliography? You have at least two or three more sources in your lit review/previous work.
