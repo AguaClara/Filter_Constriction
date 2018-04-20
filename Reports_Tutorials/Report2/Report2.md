@@ -109,7 +109,7 @@ Specifically, tap water entered the system from the inlet line, which was contro
 <img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Apparatus.jpg?raw=true" width="50%"/>
 </p>
 
-**Figure 4**:  The flow apparatus in-laboratory, shown with labeled components. **Update with needle valve**
+**Figure 4**:  The flow apparatus in-laboratory, shown with labeled components.
 
 <div class="alert alert-block alert-danger">
 Describe what else is in the schematic, walk us through the different parts and their importance? What tools do you use for data collections?
