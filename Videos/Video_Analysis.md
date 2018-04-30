@@ -166,3 +166,76 @@ Timeline:
 - 0:47 a small, oblong floc deposits from the right side of the air bubble onto a sand grain just under the bubble
 - 1:07 An oblong floc kind of deposits
   - One side seems to attach on to a sand particle and pivots about that point and then the floc falls off of the sand and flows through
+
+### 20 March 2018
+#### Video 1
+Summary: Large flocks settle and compress on top of the sand  layer.
+
+General info:
+- Flocs are large chunks, and they follow the same path as they get closer to the sand layer
+
+Constriction behavior:
+- The flocs stray from the edges of the sand grains; they move toward the middle of the intersections between sand grains
+  - This may be because the velocity at the sand's edge is zero
+
+### 16 March 2018
+Summary: Just images; no videos, although the sand grains are optimally spaced.
+
+
+### 15 March 2018
+#### Video 1 (Moving Arm)
+General info:
+- The metal arm was moved throughout this video. As the metal arm lowered, more flocs entered and settled in the flow cell.
+
+Constriction behavior:
+- The flocs that pass through the sand layer are all very small (probably, only small flocs are *able* to pass through without being filtered)
+- Flocs first occupy the top layer of constrictions, then lower ones; meanwhile, flocs build up above the very top layer, in tower-like formations.
+  - Could imply that the flocs have the highest chance of depositing at the top. It's possible that as time passes, more flocs can be caught at the bottom of the sand layer.
+
+
+#### Video 2
+Summary: Slow flocs are forced through the constriction.
+
+General info:
+- Slow movement; this might indicate a smaller pressure difference
+- 0:15 ~ 0:17 the entire floc blanket is forced down (unclear if table moved or the metal arm was moved); the flocs become more compact after this impact
+  - This could tell us that flocs and the floc blanket are prone to movement by forces other than the water flow
+
+
+#### Video 3
+Summary: Slow flocs follow similar paths and deposit in the sand bed's deeper layers.
+
+General info:
+- Some flocs have aleady settled by the time the video starts
+- Slow floc flow; flocs all follow similar paths as they approach the sand layer.
+  - This is further evidence that flocs move faster near a constriction and follow ideal paths based on sand placement
+
+Constriction behavior:
+- It seems like flocs settle in the deeper layers of the sand bed, not just the top
+
+### 13 March 2018
+
+#### Video 1 (Adjustable arm at max)
+Summary: Flocs preferentially flow through large gaps between sand particles.
+
+General info:
+- There are large gaps between sand grains
+- The video pans upward, far above the sand bed, to show how sand grains stick to the acrylic and form constrictions of their own
+- This flow cell uses a thin silicone spacer, which allows for flocs  to stick on the acrylic wall and act as the sand grains do and collect more flocs
+    - If it weren't the thin silicone sheet, the flocs could easily flow past the floc-accumulated wall because there would be a larger depth in the flow cell
+
+Constriction behavior:
+- Flocs preferentially flow through large gaps between sand grains, rather than depositing in the surrounding sand bed
+  - This video doesn't show much deposition, because most of the flocs just move towards and through the gaps
+
+#### Video 2 (Moving View)
+Summary: Flocs pass through gaps and enter a high-velocity eddy after the sand layer. 
+
+General info:
+- Video of the area below the sand layer
+
+Constriction behavior:
+- There is a visible eddy of a very high velocity
+- Flocs have accumulated on the wall by these eddies. There are thick lines of flocks at the edge of these accumulations, probably because of the repeated floc deposition from the rotating eddy
+- As in Video 1, some flocs flow through gaps between sand grains, and other flocs are accumulated on the acrylic wall
+  - The gap allows for preferential flow straight to the eddy. The gap and high velocity could also be the causes of the eddy
