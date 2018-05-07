@@ -1,3 +1,28 @@
+### 4 May 2018
+#### Video 1
+* nothing
+
+#### Video 2
+* video shaking
+* sand grains move
+* flocs deposit and create constrictions for other flocs to pass through
+* video however isn't as reliable because it appears that flow cells moved, causing sand grains to move around during the experiment
+
+#### Video 3
+* best parts from 0:05 to 0:07
+* 0:09, center, a floc pulls other through a constriction
+* similar occurence at 0:06, left constriction (large trianglar grain)
+* 0:09 left, top: floc caught on other flocs at constriction
+* 0:04 :vfloc caught in channel above trianglar floc
+
+
+
+#### Video 4
+* couldn't play on laptop, possibly corrupted video
+
+#### Video 5
+* couldn't play on laptop, possibly corrupted video
+
 ### 26 April 2018
 #### Video 1
 Summary: Small flocs with traversal times of 0.35s pass through a blurry constriction.
@@ -229,7 +254,7 @@ Constriction behavior:
   - This video doesn't show much deposition, because most of the flocs just move towards and through the gaps
 
 #### Video 2 (Moving View)
-Summary: Flocs pass through gaps and enter a high-velocity eddy after the sand layer. 
+Summary: Flocs pass through gaps and enter a high-velocity eddy after the sand layer.
 
 General info:
 - Video of the area below the sand layer
