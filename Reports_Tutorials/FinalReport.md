@@ -9,7 +9,7 @@ Please do not delete my comments. On the next submission I will use them to see 
 
 Checklist of stuff to work on:
 - [ ] Undercut silicone: Jonathan
-- [ ] Extra sand, analysis (version 3): Tommy (In progress)
+- [ ] Extra sand, analysis (version 3): Tommy (Basically done)
 - [ ] Fixing the new Figures: Tommy (Done!)
 - [ ] Fixing conclusions & future work: Jackie
 - [ ] Adding possible 3D model to future work: Jackie
@@ -17,7 +17,7 @@ Checklist of stuff to work on:
 
 ## Abstract
 
-The Spring 2018 Filter Constrictions subteam developed and tested an apparatus to mimic floc behavior at constrictions between a filter’s sand grains. The Spring 2017 team had developed an apparatus including a flow cell that contained a wire to constrict flow. Spring 2018 members fabricated two alternative kinds of flow cells: one contained sand to form multiple constrictions, ,and another contained a single channel cut from silicone. To better control the system’s flow, members added a needle valve and an adjustable metal arm to the apparatus. The subteam recorded and analyzed videos of floc accumulation in the new apparatus to discern any patterns. Understanding floc behavior at constrictions would facilitate more thorough understanding of AguaClara's sand filters. With more thorough understanding comes the ability to design more efficient filters.
+The Spring 2018 Filter Constrictions subteam developed and tested an apparatus to mimic floc behavior at constrictions between a filter’s sand grains. The Spring 2017 team had developed an apparatus including a flow cell that contained a wire to constrict flow. Spring 2018 members fabricated two alternative kinds of flow cells: one contained sand to form multiple constrictions, and another contained a single channel cut from silicone. To better control the system’s flow, members added a needle valve and an adjustable metal arm to the apparatus. The subteam recorded and analyzed videos of floc accumulation in the new apparatus to discern any patterns. Understanding floc behavior at constrictions would facilitate more thorough understanding of AguaClara's sand filters. With more thorough understanding comes the ability to design more efficient filters.
 
 <div class="alert alert-block alert-danger">
 Add in importance of floc behavior at constrictions RESOLVED
@@ -32,18 +32,18 @@ Reword first sentence for flow
 RESOLVED
 </div>
 
-The Spring 2017 subteam had built a flow cell comprised of two clear acrylic blocks separated by a layer of silicone. Members cut a rectangular channel out of this silicone layer. A wire lay across the channel, decreasing the area for flocs to flow through and creating a constriction. Water containing flocs was pumped through the flow cell, entering via an inlet tube, flowing through the cell, passing through the constriction, and exiting via an outlet tube. A camera recorded what occurred at this single-wire constriction.  To better distinguish flocs in the camera footage, the subteam generated flocs from red dye instead of clay. This flow-cell design is illustrated in Figures A and B.
+The Spring 2017 subteam had built a flow cell comprised of two clear acrylic blocks separated by a layer of silicone (aka. the "silicone spacer"). Members cut out a portion of the silicone, resulting in a rectangular channel. A wire lay across the channel, decreasing the area for flocs to flow through and creating a constriction. Water containing flocs was pumped through the flow cell, entering via an inlet tube, flowing through the cell, passing through the constriction, and exiting via an outlet tube. A camera recorded what occurred at this single-wire constriction.  To better distinguish flocs in the camera footage, the subteam generated flocs from red dye instead of clay. This flow-cell design is illustrated in Figures A and B.
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/final_flow_cell_diagram.jpg?raw=true" width="70%"/>
 </p>
 
-**Figure 1**: The above image is a labeled diagram of a bird's eye view of the flow cell design, comprised of a constriction within a water-tight silicone spacer, pressed between two acrylic blocks. As clarified in Figure 2, a second acrylic block lies in the plane of the page between the reader and the silicone spacer. The inlet and outlet tubes extend out of the page as well. In the case of Spring 2017’s flow cell, the constriction was a metal wire.
+**Figure 1**: The above image is a labeled diagram (not to scale) of a bird's eye view of the flow cell design, comprised of a constriction within a water-tight silicone spacer, pressed between two acrylic blocks. As clarified in Figure 2, a second acrylic block lies in the plane of the page between the reader and the silicone spacer. The inlet and outlet tubes extend out of the page as well. In the case of the Spring 2017 flow cell, the constriction was a metal wire.
 
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/fixed_horizontal_cross_section.jpg?raw=true" width="70%"/>
 </p>
 
-**Figure 2**: The above image is a labeled diagram of the horizontal cross-section of the flow cell design.
+**Figure 2**: The above image is a labeled diagram (not to scale) of the horizontal cross-section of the flow cell design.
 
 The Spring 2018 subteam determined that this design was insufficient to model a sand filter's constrictions. Since the camera recorded perpendicularly to the flow cell and the wire lay across said cell, the constriction was outside the camera’s plane of view. Also, the constriction was only two-dimensional. While some flocs deposited, other flocs passed around them in a path dissimilar to that in a sand filter. The Spring 2018 subteam aimed to alter the flow cell to contain more realistic constrictions, all visible to a camera.
 
@@ -63,7 +63,7 @@ When fluid passes through a channel and encounters a sudden constriction, minor 
 
 **Figure 3**: Streamlines gradually converge before passing through a constriction. They converge until the vena contracta, after which they widen.
 
-While streamlines converge at the constriction, space decreases between the outermost streamline and the constriction's wall. This increases the chance that a floc collides with the constriction's wall and deposits. Floc accumulation at the constriction further decreases the cross-sectional area through the constriction, as shown in Figure 4. Due to flow continuity, as the flow's cross-sectional area decreases, the flow's velocity through the constriction increases. The rate of floc-collision accordingly increases. The flow's velocity increases until the fluid's drag on flocs are enough to prevent deposition and pulls the flocs through the constriction [(Weber-Shirk 2017)](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf). To evaluate the CAG theory, the Filter Constrictions subteam must determine where on the constrictions such floc deposition occurs.
+While streamlines converge at the constriction, space decreases between the outermost streamline and the constriction's wall. This increases the chance that a floc collides with the constriction's wall and deposits. Floc accumulation at the constriction further decreases the cross-sectional area through the constriction, as shown in Figure 4. Due to flow continuity, as the flow's cross-sectional area decreases, the flow's velocity through the constriction increases. The rate of floc-collision accordingly increases. The flow's velocity increases until the fluid's drag on flocs is enough to prevent deposition and pulls the flocs through the constriction [(Weber-Shirk 2017)](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf). To evaluate the CAG theory, the Filter Constrictions subteam must determine where on a constriction such floc deposition occurs.
 
 <div class="alert alert-block alert-danger">
 This explanation is so thorough and well-said!
@@ -74,7 +74,7 @@ This explanation is so thorough and well-said!
 
 **Figure 4**: Flow area decreases as flocs collide and accumulate at a constriction.
 
-The Fall 2016 Milli-Sedimentation and Spring 2016 StaRS Filter Theory subteams provided evidence to support the CAG theory. The Milli-Sedimentation subteam found that when turbid water passed through nonaligned honeycomb structures, flocs deposited where flow was restricted between honeycombs [(Whiting et. al. 2016)](https://www.overleaf.com/8159891kkzwhhgszwtb#/28827379/). This demonstrated that flocs deposited preferentially at constrictions. The StaRS Filter Theory subteam conducted experiments on a clogged filter running at different flow rates to find the head loss through the filter. The subteam found that the head loss had a quadratic relationship with the flow rate. This suggested that minor losses were present in the clogged filter, and thus confirmed the presence of constrictions in the sand filter [(Chu et. al. 2016)](https://confluence.cornell.edu/display/AGUACLARA/StaRS+Filter+Theory?preview=/206635878/340897167/StaRSFilterTheoryReportFall2016.pdf).
+The Fall 2016 Milli-Sedimentation and Spring 2016 StaRS Filter Theory subteams provided evidence to support the CAG theory. The Milli-Sedimentation subteam found that when turbid water passed through nonaligned honeycomb structures, flocs deposited where flow was constricted between honeycombs [(Whiting et. al. 2016)](https://www.overleaf.com/8159891kkzwhhgszwtb#/28827379/). This demonstrated that flocs deposited preferentially at constrictions. The StaRS Filter Theory subteam conducted experiments on a clogged filter running at different flow rates to find the head loss through the filter. The subteam found that the head loss had a quadratic relationship with the flow rate **Tommy: how does this suggest the presence of constrictions?**. This suggested that minor losses were present in the clogged filter, and thus confirmed the presence of constrictions in the sand filter [(Chu et. al. 2016)](https://confluence.cornell.edu/display/AGUACLARA/StaRS+Filter+Theory?preview=/206635878/340897167/StaRSFilterTheoryReportFall2016.pdf).
 
 <div class="alert alert-block alert-danger">
 Why does a quadratic relationship with the flow rate indicate that minor losses were present?
@@ -82,24 +82,24 @@ Why does a quadratic relationship with the flow rate indicate that minor losses 
 I am not a huge fan of semicolons, consider just using two sentences (but as this is a matter of opinion will not affect style grade) RESOLVED
 </div>
 
-The Fall 2017 Filter Constrictions subteam tested the CAG theory on a single-wire constriction flow cell. Camera recordings showed floc deposition at the constriction. Although flocs clearly deposited along the wire, it was unclear where on the wire's circumference they deposited. Figure 5 illustrates this. Also, after a sufficiently large volume of flocs deposited on the constriction, the accumulated flocs fell through the constriction as a unit [(Dokko et. al. 2017)](https://www.overleaf.com/read/gjkjdyvyhnxs#/41170384/). Members hypothesized this behavior to be equivalent to a StaRS filter's failure point [(Li et. al. 2017)](https://www.overleaf.com/6268224jmjfms#/21041070/).
+The Fall 2017 Filter Constrictions subteam tested the CAG theory on a single-wire constriction flow cell. Camera footage showed floc deposition at the constriction. Although flocs clearly deposited along the wire, it was unclear where on the wire's circumference they deposited. Figure 5 illustrates this. Also, after a sufficiently large volume of flocs deposited on the constriction, the accumulated flocs fell through the constriction as a unit [(Dokko et. al. 2017)](https://www.overleaf.com/read/gjkjdyvyhnxs#/41170384/). Members hypothesized this behavior to be equivalent to a StaRS filter's failure point [(Li et. al. 2017)](https://www.overleaf.com/6268224jmjfms#/21041070/).
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Cross-Section_wire_final.jpg?raw=true" width="60%"/>
 </p>
 
-**Figure 5**: The above image is a labeled diagram, not to scale, of the partial horizontal cross-section of the flow cell as developed by the Spring 2017 subteam. Red arrows indicate the different locations that flocs may have deposited on the wire. Other flow cell components, such as the silicone spacer and tubes, are not depicted.
+**Figure 5**: The above image is a labeled diagram (not to scale) of the partial horizontal cross-section of the flow cell as developed by the Spring 2017 subteam. Red arrows indicate the different locations that flocs may have deposited on the wire. Other flow cell components, such as the silicone spacer and tubes, are not depicted.
 
 <div class="alert alert-block alert-danger">
 Why was it unclear as to where the flocs deposited on the wire? RESOLVED
 </div>
 
-To facilitate further evaluation of the CAG theory, the Spring 2018 team aimed to construct and test new constriction designs.
+To further evaluate the CAG theory, the Spring 2018 team aimed to construct and test new constriction designs.
 
 ## Methods
 
 The Spring 2017 subteam developed an apparatus to model floc behavior at a sand filter's constrictions. Flocs, developed in a flocculator, were pumped through a flow cell with clear, acrylic walls. A camera recorded their behavior at a constriction in the flow cell. Such tests ran for durations up to an hour to observe short-term and long-term patterns, and ultimately to evaluate the CAG theory.
 
-The original flow cell's constriction was comprised of a 0.5 mm space created by a water-tight silicon spacer between two acrylic walls, across which a 0.3 mm diameter wire lay and created a 0.2 mm constriction between the flow cell's walls. Though the flocs were historically made of coagulant (a.k.a. polyaluminum chloride, PACl) and clay, the 2017 Filter Constrictions subteam exchanged clay for red dye #40. This increased floc visibility, attributed to color contrast in the camera footage. This flow cell design is illustrated in Figures A, B, and 11.
+The original flow cell's constriction was comprised of a 0.5 mm space created by a water-tight silicon spacer between two acrylic walls, across which a 0.3 mm diameter wire lay and created a 0.2 mm constriction between the flow cell's walls. Though the flocs were historically made of coagulant (a.k.a. polyaluminum chloride, PACl) and clay, the 2017 Filter Constrictions subteam exchanged clay for red dye #40. This increased floc visibility, attributed to color contrast in the camera footage. This flow cell design is illustrated in Figures 1, 2, and 10.
 
 <div class="alert alert-block alert-danger">
 Are there any photos of the previous semester's set-up? I'm struggling to imagine it. RESOLVED
@@ -108,7 +108,7 @@ Are there any photos of the previous semester's set-up? I'm struggling to imagin
 #### Experimental Apparatus
 The Spring 2018 subteam altered Fall 2017's system, highlighted below in the Figure 6 schematic. The system was developed to recreate the portion of an AguaClara treatment plant in which layers of sand filter water in a StaRS filter. As shown in Figure 6, the system apparatus allowed water to flow from an inlet, carry an input of flocs, enter the flow cell, and exit through a waste line.
 
-Specifically, tap water entered the system from the inlet line, which was controlled by a peristaltic pump. The water then passed through a flow accumulator and needle valve, which inhibited pulsations caused by the peristaltic pump. An additional peristaltic pump input coagulant and dye into the water. The dye mimicked dirt particles found in water entering AguaClara plants. The mixture of water, dye, and coagulant flowed into the flocculator, the length of which had been calculated to generate flocs of the desired size through a collision of dye and coagulant particles. The resulting mixture, now containing flocs, entered a branched tubing system that directed most flow away from the flow cell and into the waste line. This prevented overly high fluid velocities in the flow cell. After the remaining mixture passed through the flow cell, the flow cell's effluent traveled up the tubing to the height of a vertically adjustable metal arm, to which the apex of the effluent tubing was attached. Effluent then drained into a waste container. Videos and images of the flow cell's constriction were taken with a FlyCap camera mounted next to the flow cell.
+Specifically, tap water entered the system from the inlet line, which was controlled by a peristaltic pump. The water then passed through a flow accumulator and needle valve, which inhibited pulsations caused by the peristaltic pump. An additional peristaltic pump input coagulant and dye into the water. The dye mimicked dirt particles found in water entering AguaClara plants. The mixture of water, dye, and coagulant flowed into the flocculator, the length of which had been calculated to generate flocs of the desired size through collision of dye and coagulant particles. The resulting mixture, now containing flocs, entered a branched tubing system that directed most flow away from the flow cell and into the waste line. This prevented overly high fluid velocities in the flow cell. After the remaining mixture passed through the flow cell, the flow cell's effluent traveled up the tubing to the height of a vertically adjustable metal arm, to which the apex of the effluent tubing was attached. Effluent then drained into a waste container. Videos and images of the flow cell's constriction were taken with a FlyCap camera mounted next to the flow cell.
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/Sp18_Schematic_w_needlevalve.png?raw=true" width="90%"/>
 </p>
@@ -124,7 +124,7 @@ Specifically, tap water entered the system from the inlet line, which was contro
 
 Figure 6 highlights the importance of the effluent, "head loss" tubing. Head loss ($\Delta H$) was the main driver for the pressure gradient across the flow cell, which in turn caused influent to flow through the flow cell. The difference in height ($\Delta H$) between the head loss tubing and the laboratory's waste line was proportional to this head loss and therefore caused a particular pressure gradient across the flow cell, determining flocs' flow rate ($Q$). This height difference was manipulated with a vertically adjustable metal arm to create the necessary flow rates through different flow cell designs.
 
-The ability to control this height difference was crucial in obtaining proper flow velocities that mimicked those in StaRS filters. Previous semesters' Filter Constrictions subteams used various set heights within the laboratory, such as pipes near the ceiling. The Spring 2018 team designed and fabricated a vertically adjustable "head loss arm" using 80/20, an aluminum-rod framing system. The metal arm allowed for subteam members to control of the height of the head loss tubing's apex, as shown in Figure 8. The metal arm's most important component was a lever that allowed easy vertical movement of the 80/20 beam, as shown in Figure 9. This enabled control of the flow rate across the flow cell.
+The ability to control this height difference was crucial in obtaining proper flow velocities that mimicked those in StaRS filters. Previous semesters' Filter Constrictions subteams used various set heights within the laboratory, such as pipes near the ceiling. The Spring 2018 team designed and fabricated a vertically adjustable "head loss arm" using 80/20, an aluminum-rod framing system. The metal arm allowed for subteam members to control the height of the head loss tubing's apex, as shown in Figure 8. The metal arm's most important component was a lever that allowed easy vertical movement of the 80/20 beam, as shown in Figure 9. This enabled control of the flow rate across the flow cell.
 
 <p align="center">
 <img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/HeadlossAdjuster.jpg?raw=true" width="25%" />
@@ -140,7 +140,7 @@ The ability to control this height difference was crucial in obtaining proper fl
 
 #### Flow Cell Overview
 
-The flow cell was developed to mimic the mechanisms under which StaRS filters operated. Scaled, two-dimensional replicates of constrictions in a StaRS filter were placed between the flow cell's walls using various materials, as mentioned in the Introduction. The clear material was needed for the flow cell's walls in order to observe and record the internal constriction. Silicone served as a water-tight border to separate two clear acrylic blocks and to contain the fluid passing through the flow cell, as shown in Figure 10.
+The flow cell was developed to mimic the mechanisms under which StaRS filters operate. Scaled, two-dimensional replicates of constrictions in a StaRS filter were placed between the flow cell's walls using various materials, as mentioned in the Introduction. The clear material was needed for the flow cell's walls in order to observe and record the internal constriction. Silicone served as a water-tight border to separate two clear acrylic blocks and to contain the fluid passing through the flow cell, as shown in Figure 10.
 
 To assemble the flow cell, the Spring 2018 subteam used the same two clear acrylic blocks as the Fall 2017 subteam. Two rows of screws along the bottom acrylic block, each row containing five tightened screws, guaranteed that the cell remained watertight.
 
@@ -156,7 +156,7 @@ To assemble the flow cell, the Spring 2018 subteam used the same two clear acryl
  RESOLVED
  </div>
 
- The flow cell was set in a wooden mount, as shown in Figure 11. An LED rested behind the flow cell to provide backlighting for high-quality video recordings. The two microtubes protruding from the back of the mount served as inlet and outlet of the flow cell. The flow cell was always mounted such that the outlet was beneath the inlet. This mimicked the gravitationally powered, downward movement of flocs seen in StaRS filters. The inlet was connected to the aforementioned branched hard-tubing segment, and the outlet was connected to the head loss tubing, as shown in Figures 3 and 4.
+ The flow cell was set in a wooden mount, as shown in Figure 11. An LED rested behind the flow cell to provide backlighting for high-quality video recordings. The two microtubes protruding from the back of the mount served as inlet and outlet of the flow cell. The flow cell was always mounted such that the outlet was beneath the inlet. This mimicked the gravitationally powered, downward movement of flocs seen in StaRS filters. The inlet was connected to the aforementioned branched hard-tubing segment, and the outlet was connected to the head loss tubing.
 
 
 
@@ -165,7 +165,7 @@ To assemble the flow cell, the Spring 2018 subteam used the same two clear acryl
 </p>
 
 **Figure 11**: The above image is a photograph of a flow cell set in the previously fabricated mount.
-
+**Tommy stopped editing here**
 #### Flow Cell Iterations
 
 While the same acrylic material was used for each flow cell’s walls, the design of the constriction contained by the flow cell varied for each iteration.
@@ -275,10 +275,10 @@ After developing the two alternative flow cell designs (sand constriction, Itera
 
 In the second flow cell iteration, the subteam inserted sand grains into the flow cell to form multiple constrictions. As flocs flowed between the sand grains, the team captured videos to determine where on the sand grains the flocs deposited.
 
-First, the subteam placed multiple rows of sand in the flow cell, but it became difficult to track the floc particles due to the sand grains' three-dimensional nature. It was difficult to determine whether flocs deposited above, below or beside the sand grains. The subteam simplified the constriction by replacing the multiple rows with a single row of sand grains. However, particle deposition location remained ambiguous. Also, when an insufficient number of sand grains were placed in the flow cell, wide spaces opened between the sand grains for fluid to flow through.
+First, the subteam placed multiple rows of sand in the flow cell, but it became difficult to track the floc particles due to the sand grains' three-dimensional nature. It was uncertain whether flocs deposited above, below or beside the sand grains. The subteam simplified the constriction by replacing the multiple rows with a single row of sand grains. However, the exact locations of particle deposition remained ambiguous. Also, when an insufficient number of sand grains were placed in the flow cell, wide spaces opened between the sand grains for fluid to flow through.
 
-**Tommy**:
-Despite these issues, another version of the flow cell's second iteration was developed, containing several more rows of sand than the first version. Instead of the camera recording floc activity at the top of a sand-bed, the camera recorded floc activity in the midst of a sand-bed. A comparison of Figures 19 and 23 clarify this concept. Despite the aforementioned sources of error, such as the uncertain location of floc-deposition, general flow patterns were still discernible.
+**Tommy (basically done)**:
+Despite these issues, another version of the flow cell's second iteration was developed, containing several more rows of sand than the first version. Instead of the camera recording floc activity at the top of a sand-bed, the camera recorded floc activity in the midst of a sand-bed. A comparison of Figures 19 and 23 clarifies this distinction. Despite the aforementioned sources of error, such as the uncertain location of floc-deposition, general flow patterns were still discernible.
 
 These ideas are discussed in the following sections.
 
@@ -312,7 +312,7 @@ What do Figure 38 and 19 add to the understanding? Are these the same results as
 </div>
 
 #### Version 2: Single Row of Sand
-After multiple experiments with multiple rows of sand, the team decided to attempt to capture videos of flocs as they flow through just a single row of sand grains to see if particle deposition would be easier to see. However, since the team created just one row of sand grains, large gaps were easy to form and flocs would easily sneak past the row of grains. In the [3-23-18 video](https://drive.google.com/file/d/125flfmdWQUzdLbNkAbIODlrEk_kotEMs/view?usp=sharing), a gap existed on the right side of the flow cell and many flocs were able to freely travel through that region. However, the subteam also observed flocs depositing in other regions. In Figures 20 and 21, the subteam observed floc deposition in the midsection and left side of the flow cell. However, since the sand grains are 3-dimensional, it is difficult to tell where on the sand grain these flocs deposited.
+After multiple experiments with multiple rows of sand, the team decided to attempt to capture videos of flocs as they flow through just a single row of sand grains to see if particle deposition would be easier to see. However, since the team created just one row of sand grains, large gaps were easy to form and flocs would easily sneak past the row of grains. In the [3-23-18 video](https://drive.google.com/file/d/125flfmdWQUzdLbNkAbIODlrEk_kotEMs/view?usp=sharing), a gap existed on the right side of the flow cell and many flocs were able to freely travel through that region. However, the subteam also observed flocs depositing in other regions. In Figures 21 and 22, the subteam observed floc deposition in the midsection and left side of the flow cell. However, since the sand grains are 3-dimensional, it is difficult to tell where on the sand grain these flocs deposited.
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Videos/3-23-18/3-23-18%20Single%20Row.PNG?raw=true" width ="60%" /></p>
 
@@ -331,23 +331,23 @@ RESOLVED
 
 ####Version 3: Several Rows of Sand (Middle of Sand Bed)
 
-**Tommy:** The subteam also tested a flow cell that contained several extra rows of sand grains, such that the camera recorded floc behavior in the midst of the sand bed. Figure 23 clarifies this. Upon reviewing Figure 19, one sees that Version 1 camera footage largely recorded floc behavior while entering sand constrictions, while Version 3 camera footage recorded floc behavior having already entered a sand bed.
+**Tommy: (basically done)** The subteam also tested a flow cell that contained several extra rows of sand grains, such that the camera recorded floc behavior in the midst of the sand bed. Upon reviewing Figure 19, one sees that Version 1 camera footage largely recorded floc behavior while entering sand constrictions. Figure 23 shows that Version 3 camera footage recorded floc behavior having already entered a sand bed.
 
-The Filter Constrictions subteam's concern is floc behavior throughout a sand filter. Thus, Version 3 complemented Version 1. Although Version 3 suffered from the same aforementioned errors, it did provide some supporting evidence for previously held hypotheses.
+The Filter Constrictions subteam's concern is floc deposition throughout a sand filter. Thus, Version 3 complemented Version 1. Although Version 3 suffered from the same aforementioned errors, it did provide some supporting evidence for previously held theories.
 
 <p align="center"><img src="https://github.com/AguaClara/filter-constrictions/blob/master/Images/20180504_unclogged_sand.jpg?raw=true" width ="60%" /> </p>
 
 **Figure 23**: The above image is a photograph taken on 5-4-18 of the sand constrictions in the Iteration 2, Version 3 flow cell.
 
-In this video recorded on [5-4-18](https://drive.google.com/file/d/1XoEOxfUSfhIhOnggYb2JdVJwp5grEQDU/view), similar to the floc behavior in Version 1, many flocs passed quickly through the sand grains. While the top of the sand-bed is invisible to the camera in this set-up, it can be inferred that the top of the sand bed likely captured the majority of flocs. This supports the hypothesized strong initial active zone, as stated in the Version 1 analysis. Only a few flocs remained to deposit within the rest of the sand grains, and many continued to pass through due to their small size. However, three interesting phenomena were observed in this video.
+In this video recorded on [5-4-18](https://drive.google.com/file/d/1XoEOxfUSfhIhOnggYb2JdVJwp5grEQDU/view), similar to floc behavior in Version 1 footage, many flocs passed quickly through the sand grains. While the top of the sand-bed was invisible to the camera in this set-up, it was inferred that the top of the sand bed likely captured the majority of flocs. This supports the idea of a strong initial active zone, as stated in the Version 1 analysis. Only a few flocs remained to deposit within the rest of the sand grains, and many continued to pass through due to their small size. However, three interesting phenomena were observed in this video.
 
 At 0:09 in the sand-bed's center, and at 0:06 in the sand-bed's left-hand portion, subteam members saw a floc pull other flocs through a constriction. This illustrated the phenomenon described in the Literature Review and Previous Work section: flocs deposit at constrictions until they reach some threshold, and future collisions force all flocs through the constriction.
 
-At 0:04 in the sand-bed's left-hand portion, a floc catches at the apex of the curve of a sand-grain. At first this appears to suggest that flocs do deposit at the apex of constrictions; however, this instance likely occurred because the floc was relatively large, and the apex of this sand grain's curve formed a tight space; this is not necessarily due to any aforementioned theories concerning streamlines and such.
+At 0:04 in the sand-bed's left-hand portion, a floc catches at the apex of the curve of a sand-grain. At first this appears to suggest that flocs do deposit at the apex of constrictions. However, this instance likely occurred because the floc was relatively large, and the apex of the sand grain's curve formed a space smaller than the floc itself. This was not necessarily due to any aforementioned theories concerning streamlines and deposition mechanisms.
 
 At 0:09 in the sand-bed's left-hand portion, one sees a floc deposit atop a group of other flocs. This most likely occurs because of floc accumulation effectively shrinking the constriction, as explained in the Literature Review and Previous Work section, and as illustrated in Figures 3 and 4.
 
-While the Version 3 camera footage did not show any conclusive data, it did demonstrate previously held ideas.
+While the Version 3 camera footage did not show any conclusive evidence supporting the CAG theory, it did demonstrate previously held ideas.
 
 ### Single Constriction
 
