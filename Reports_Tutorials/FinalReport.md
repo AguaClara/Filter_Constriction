@@ -373,7 +373,7 @@ This manual lays out the details of the material and methods used for the aforem
     - If the dye and/or coagulant bottles are not connected to the system, replace the water bottles with the correct chemicals. See tube labeling to ensure proper correspondence of microtubing to the chemical.
 2. Turn on the pumps and make sure that both the water pump and coagulant/dye pumps are running in the clockwise direction.
 3. Ensure both pumps are on "INT" mode.
-4. Set the water pump to 38.9 rpm and the dye/coagulant pump to 20 rpm **Jonathan, please fix these numbers**.
+4. Set the water pump to 38.9 rpm and the dye/coagulant pump to 13.3 rpm.
 5. Set up the camera and connect it to the computer. If it does not show up, click Force IP.
 
  Setting up the camera
