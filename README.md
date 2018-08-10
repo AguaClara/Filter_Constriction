@@ -1,4 +1,7 @@
 # Filter_Constrictions
+
+## Note: This subteam was ended after the Spring 2018 semester.  This repository was archived 8/10/18.
+
 ## Team Members:
 * Thomas Bradford (tsb49)
 * Jacqueline Dokko (jmd475)
